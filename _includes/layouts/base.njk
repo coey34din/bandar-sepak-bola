@@ -1,10 +1,28 @@
 <!doctype html>
 <html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
-
 	{% include "components/head.njk" %}
-
-	<body>
+<body>
+	<div class="wrapper">
 		<header>
+			<nav class="nav-top hidden-xs">
+					<div class="container">
+						<div class="clearfix">
+							<div id="secondary-menu">
+								hadir
+							</div>
+							<div class="pull-right">
+								<ul class="social-menu">
+									<li><a href=""><span class="icon-facebook"></span></a></li>
+									<li><a href=""><span class="icon-twitter"></span></a></li>
+									<li><a href=""><span class="icon-instagram"></span></a></li>
+									<li><a href=""><span class="icon-pinterest"></span></a></li>
+									<li><a href=""><span class="icon-behance"></span></a></li>
+									<li><a href=""><span class="icon-dribbble"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</nav>
 			<em>
 				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
 			</em>
@@ -16,5 +34,6 @@
 		</main>
 
 		{% include "components/footer.njk" %}
-	</body>
+	</div>
+</body>
 </html>

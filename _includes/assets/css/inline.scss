@@ -141,8 +141,42 @@ header {
 			}
 		}
 	}
+	.nav-top {
+		border-bottom: 1px solid #333;
+		.pull-right {
+			float: right;
+		}
+	}
 }
 
+.social-menu, .navbar, .nav-top ul.secondary-menu, .nav-bottom ul.secondary-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	min-height: inherit;
+}
+.social-menu li, .nav-top ul.secondary-menu li {
+	padding: 0;
+}
+.social-menu li, .nav-top ul.secondary-menu li, .nav-bottom ul.secondary-menu li {
+	display: block;
+	float: left;
+	padding: 14px 28px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.social-menu li a {
+    font-size: 16px;
+    padding: 0 5px;
+}
+.social-menu li a, .nav-top ul.secondary-menu li a {
+    line-height: 30px;
+    font-size: 11px;
+    text-transform: capitalize;
+    padding: 0 10px;
+    color: #aaa;
+}
 /* Posts List */
 article {
 	margin-bottom: 1em;
@@ -166,7 +200,13 @@ main {
 
 
 @media screen and (min-width: 768px) {
-:root {
-	font-size: 1.1rem;
+	:root {
+		font-size: 1.1rem;
+		}
+	.container {
+		width: 750px;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 }
+
