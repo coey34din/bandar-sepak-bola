@@ -1,7 +1,6 @@
 :root {
   --turkey: #FFF0EB;
   --white: white;
-  --blue: blue;
 }
 
 *,
@@ -35,7 +34,7 @@ p, pre, code {
 
 a[href],
 a[href]:visited {
-  color: var(--blue);
+  color: yellow;
 }
 
 a[href]:not(:hover) {
@@ -83,15 +82,15 @@ a[rel="tag"]:visited {
   height: 2em;
   border: 1px solid var(--white);
   background-color: var(--white);
-  color: var(--blue);
+  color: yellow;
   border-radius: .25em;
   text-decoration: none;
   margin: 0 .5em .5em 0;
 }
 
 a[rel="tag"]:hover {
-  border: 1px solid var(--blue);
-  background-color: var(--blue);
+  border: 1px solid yellow;
+  background-color: yellow;
   color: var(--white);
 }
 
@@ -126,8 +125,8 @@ textarea {
 }
 
 button {
-  border: 1px solid var(--blue);
-  background-color: var(--blue);
+  border: 1px solidyellow;
+  background-color: yellow;
   color: var(--white);
   cursor: pointer;
 }
