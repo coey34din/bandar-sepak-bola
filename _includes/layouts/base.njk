@@ -5,26 +5,46 @@
 	<div class="wrapper">
 		<header>
 			<nav class="nav-top hidden-xs">
-					<div class="container">
-						<div class="clearfix">
-							<div id="secondary-menu">
-								hadir
-							</div>
-							<div class="pull-right">
-								<ul class="social-menu">
-									<li><a href=""><i class="fab fa-facebook"></i></a></li>
-									<li><a href=""><i class="fab fa-twitter-square"></i></a></li>
-									<li><a href=""><i class="fab fa-instagram"></i></span></a></li>
-									<li><a href=""><i class="fab fa-behance-square"></i></a></li>
-									<li><a href=""><i class="fab fa-dribbble-square"></i></a></li>
-								</ul>
-							</div>
+				<div class="container">
+					<div class="clearfix">
+						<div id="secondary-menu">
+							hadir
+						</div>
+						<div class="pull-right">
+							<ul class="social-menu">
+								<li><a href=""><i class="fab fa-facebook"></i></a></li>
+								<li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+								<li><a href=""><i class="fab fa-instagram"></i></span></a></li>
+								<li><a href=""><i class="fab fa-behance-square"></i></a></li>
+								<li><a href=""><i class="fab fa-dribbble-square"></i></a></li>
+							</ul>
 						</div>
 					</div>
-				</nav>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="main-content">
+					<div class="clearfix">
+						<em>
+							<a  class="brand" href="{{ '/' | url }}">{{ metadata.title }}</a>
+						</em>
+						<div class="ads-banner  hidden-xs hidden-sm pull-right">
+							<a href="#" class="ads-large"><img src="assets/img/728x90_ad.png" alt="728 x 90 Ad"></a>
+							<a href="#" class="ads-medium"><img src="assets/img/468x60_ad.png" alt="728 x 90 Ad"></a>
+						</div>
+
+						<nav>
+							<button type="button" class="menu-toggle">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<button type="submit" class="btn-search pull-right"><span class="icon-magnifying-glass"></span><span class="icon-cross"></span></button>
+						</nav>
+					</div>
+				</div>
+			</div>
+			
 			{% include "components/nav.njk" %}
 		</header>
 
