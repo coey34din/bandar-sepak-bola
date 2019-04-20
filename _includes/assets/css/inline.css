@@ -154,7 +154,13 @@ header .main-content .ads-banner {
   width-max-width: 100%;
 }
 
-header .form-search-box {
+header .nav-bottom {
+  background: #f8f8f8;
+  border-top: 1px solid #181616;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+header .nav-bottom .form-search-box {
   position: static;
   display: inline-block;
   float: right;
@@ -165,11 +171,11 @@ header .form-search-box {
   border: none;
 }
 
-header .form-search-box form {
+header .nav-bottom .form-search-box form {
   position: relative;
 }
 
-header .form-search-box form input {
+header .nav-bottom .form-search-box form input {
   border-radius: 999px;
   background: #fdfdfd;
   border: 1px solid #ebebeb;
@@ -182,12 +188,12 @@ header .form-search-box form input {
   font-size: 14px;
 }
 
-header .form-search-box form span {
+header .nav-bottom .form-search-box form span {
   position: absolute;
   top: 0;
   left: auto;
   right: -15px;
-  line-height: 70px;
+  line-height: 37px;
   display: inline-block;
   margin-right: 5px;
   color: #333;
@@ -198,7 +204,7 @@ header .form-search-box form span {
   transition: all .25s ease-in-out;
 }
 
-header .form-search-box form span :before {
+header .nav-bottom .form-search-box form span :before {
   position: relative;
   top: 1px;
 }
