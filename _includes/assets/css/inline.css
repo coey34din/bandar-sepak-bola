@@ -71,16 +71,6 @@ a[rel="tag"]:last-child {
 }
 
 /* Contact Form */
-form {
-  display: -ms-grid;
-  display: grid;
-  padding: 2em 0;
-}
-
-form label {
-  display: none;
-}
-
 /* Header  */
 header > em {
   display: block;
@@ -175,7 +165,11 @@ header .main-content .form-search-box {
   border: none;
 }
 
-header .main-content .form-search-box input {
+header .main-content .form-search-box form {
+  position: relative;
+}
+
+header .main-content .form-search-box form input {
   border-radius: 999px;
   background: #fdfdfd;
   border: 1px solid #ebebeb;
@@ -188,7 +182,7 @@ header .main-content .form-search-box input {
   font-size: 14px;
 }
 
-header .main-content .form-search-box span {
+header .main-content .form-search-box form span {
   position: absolute;
   top: 0;
   left: auto;
@@ -204,7 +198,7 @@ header .main-content .form-search-box span {
   transition: all .25s ease-in-out;
 }
 
-header .main-content .form-search-box span :before {
+header .main-content .form-search-box form span :before {
   position: relative;
   top: 1px;
 }
