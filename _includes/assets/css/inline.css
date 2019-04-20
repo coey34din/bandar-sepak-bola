@@ -117,6 +117,15 @@ header .nav-top #secondary-menu {
   float: left;
 }
 
+header .nav-top .social-menu {
+  margin: 0 5px;
+}
+
+header .nav-top .social-menu li a {
+  font-size: 16px;
+  color: white;
+}
+
 header .menu-toggle {
   display: none;
   position: relative;
