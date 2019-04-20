@@ -197,6 +197,7 @@ header .main-menu li a {
   padding: 20px 18px;
   height: 55px;
   display: table;
+  color: black;
 }
 
 header .main-menu li a .active {
