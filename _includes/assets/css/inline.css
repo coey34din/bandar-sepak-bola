@@ -45,7 +45,7 @@ ul {
 }
 
 .social-menu li, .nav-top ul.secondary-menu li, .nav-bottom ul.secondary-menu li {
-  display: inline-block;
+  display: block;
   float: left;
   text-transform: uppercase;
   font-size: 12px;
@@ -129,7 +129,7 @@ header .nav-bottom {
 
 header .nav-bottom .form-search-box {
   position: static;
-  display: inline-block;
+  display: block;
   float: right;
   min-width: 180px;
   max-width: 180px;
@@ -177,7 +177,7 @@ header .nav-bottom .form-search-box form span :before {
 }
 
 header .main-menu li {
-  display: inline-block;
+  display: block;
   position: relative;
   vertical-align: middle;
   z-index: 100;
