@@ -169,7 +169,7 @@ header .main-content .form-search-box form {
   position: relative;
 }
 
-header .main-content .form-search-box form input {
+header .main-content .form-search-box input {
   border-radius: 999px;
   background: #fdfdfd;
   border: 1px solid #ebebeb;
@@ -182,7 +182,7 @@ header .main-content .form-search-box form input {
   font-size: 14px;
 }
 
-header .main-content .form-search-box form span {
+header .main-content .form-search-box span {
   position: absolute;
   top: 0;
   left: auto;
@@ -198,7 +198,7 @@ header .main-content .form-search-box form span {
   transition: all .25s ease-in-out;
 }
 
-header .main-content .form-search-box form span :before {
+header .main-content .form-search-box span :before {
   position: relative;
   top: 1px;
 }
