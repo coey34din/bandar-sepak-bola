@@ -50,7 +50,6 @@ header {
 		font-weight: bold;
 		font-style: normal;
 	}
-
 	nav {
 		ul {
 			&:first-child {
@@ -68,8 +67,7 @@ header {
 				}
 			}
 		}
-	}
-	
+	}	
 	.nav-top {
 		border-bottom: 1px solid #333;		
 		#secondary-menu{
@@ -84,10 +82,8 @@ header {
 					color: white;
 				}
 			}
-		}
-	
-	}
-	
+		}	
+	}	
 	.menu-toggle{
 		display: none;
 		position: relative;
