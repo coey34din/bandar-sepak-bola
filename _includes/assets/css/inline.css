@@ -53,24 +53,6 @@ header > em {
   font-style: normal;
 }
 
-header nav ul:first-child {
-  margin-left: 0;
-}
-
-header nav ul:first-child li {
-  display: inline-block;
-  margin: 0 .5em;
-}
-
-header nav ul:first-child li a[href]:not(:hover) {
-  text-decoration: none;
-}
-
-header nav ul:first-child li a[data-current="current item"] {
-  font-weight: 700;
-  text-decoration: underline;
-}
-
 header .nav-top {
   border-bottom: 1px solid #333;
 }
@@ -134,18 +116,6 @@ header .nav-bottom {
   color: black;
 }
 
-header .nav-bottom .main-menu li {
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  z-index: 100;
-  float: left;
-}
-
-header .nav-bottom .main-menu li :first-child {
-  margin-left: 0;
-}
-
 header .nav-bottom .form-search-box {
   position: static;
   display: inline-block;
@@ -193,6 +163,27 @@ header .nav-bottom .form-search-box form span {
 header .nav-bottom .form-search-box form span :before {
   position: relative;
   top: 1px;
+}
+
+header .main-menu li {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  z-index: 100;
+  float: left;
+}
+
+header .main-menu li :first-child {
+  margin-left: 0;
+}
+
+header .main-menu li a {
+  padding: 20px 18px;
+  height: 55px;
+}
+
+header .main-menu li a .active {
+  background-color: yellowgreen !important;
 }
 
 /* main */
