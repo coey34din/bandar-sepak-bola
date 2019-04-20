@@ -74,6 +74,7 @@ header .nav-top #secondary-menu {
 }
 
 header .nav-top .social-menu {
+  display: table;
   margin: 10px 0;
 }
 
