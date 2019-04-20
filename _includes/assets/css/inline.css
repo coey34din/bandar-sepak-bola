@@ -134,6 +134,18 @@ header .nav-bottom {
   color: black;
 }
 
+header .nav-bottom .main-menu li {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  z-index: 100;
+  float: left;
+}
+
+header .nav-bottom .main-menu li :first-child {
+  margin-left: 0;
+}
+
 header .nav-bottom .form-search-box {
   position: static;
   display: inline-block;
