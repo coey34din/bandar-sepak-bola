@@ -177,7 +177,7 @@ header .nav-bottom .form-search-box form span :before {
 }
 
 header .main-menu li {
-  display: block;
+  display: table;
   position: relative;
   vertical-align: middle;
   z-index: 100;
