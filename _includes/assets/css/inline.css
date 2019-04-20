@@ -180,6 +180,12 @@ header .main-content .form-search-box input {
   background: #fdfdfd;
   border: 1px solid #ebebeb;
   padding-right: 40px;
+  line-height: 35px;
+  height: 35px;
+  padding-left: 15px;
+  padding-right: 10px;
+  color: #333;
+  font-size: 14px;
 }
 
 header .main-content .form-search-box span {
@@ -196,6 +202,11 @@ header .main-content .form-search-box span {
   text-align: center;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
+}
+
+header .main-content .form-search-box span :before {
+  position: relative;
+  top: 1px;
 }
 
 /* main */

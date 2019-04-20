@@ -168,6 +168,12 @@ header {
 				background: #fdfdfd;
 				border: 1px solid #ebebeb;
 				padding-right: 40px;
+				line-height: 35px;
+				height: 35px;
+				padding-left: 15px;
+				padding-right: 10px;
+				color: #333;
+				font-size: 14px;
 			}
 			span {
 				position: absolute;
@@ -186,6 +192,10 @@ header {
 				-ms-transition: all .25s ease-in-out;
 				-o-transition: all .25s ease-in-out;
 				transition: all .25s ease-in-out;
+				:before {
+					position: relative;
+					top: 1px;
+				}
 			}
 		}
 		
