@@ -191,6 +191,7 @@ header .main-menu li :first-child {
 header .main-menu li a {
   padding: 20px 18px;
   height: 55px;
+  display: table;
 }
 
 header .main-menu li a .active {
