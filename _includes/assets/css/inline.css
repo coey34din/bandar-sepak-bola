@@ -141,15 +141,6 @@ header > em {
   font-style: normal;
 }
 
-header .secondary-menu {
-  display: table;
-  float: left;
-}
-
-header .pull-right {
-  float: right;
-}
-
 header nav ul:first-child {
   margin-left: 0;
 }
@@ -174,6 +165,11 @@ header .nav-top {
 
 header .nav-top .pull-right {
   float: right;
+}
+
+header .nav-top #secondary-menu {
+  display: table;
+  float: left;
 }
 
 /* Posts List */

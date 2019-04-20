@@ -126,13 +126,7 @@ header {
 		font-weight: bold;
 		font-style: normal;
 	}
-	.secondary-menu{
-		display: table;
-		float: left;
-	}
-	.pull-right{
-		float: right;
-	}
+
 	nav {
 		ul {
 			&:first-child {
@@ -156,6 +150,11 @@ header {
 		.pull-right {
 			float: right;
 		}
+		#secondary-menu{
+			display: table;
+			float: left;
+		}
+		
 	}
 }
 
