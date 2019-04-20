@@ -30,11 +30,6 @@ a[href]:visited {
 a[href]:not(:hover) {
 	text-decoration: none;
 }
-header,
-main,
-footer {
-	padding: 1em;
-}
 
 pre {
 	font-size: 14px;
@@ -68,8 +63,8 @@ a[rel="tag"]:visited {
 	padding: 0 .5em;
 	line-height: 2em;
 	height: 2em;
-	border: 1px solid white
-	background-color: white
+	border: 1px solid white;
+	background-color: white;
 	color:yellow;
 	border-radius: .25em;
 	text-decoration: none;
@@ -78,7 +73,7 @@ a[rel="tag"]:visited {
 a[rel="tag"]:hover {
 	border: 1px solid yellow;
 	background-color:yellow;
-	color: white
+	color: white;
 }
 a[rel="tag"]:last-child {
 	margin-right: 0;
@@ -108,7 +103,7 @@ textarea {
 button {
 	border: 1px solidyellow;
 	background-color:yellow;
-	color: white
+	color: white;
 	cursor: pointer;
 }
 
@@ -153,17 +148,8 @@ header {
 	}
 }
 
-/* Posts List */
-article {
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid white
-}
-
+/* main */
 main {
-	max-width: 37.5em;
-	padding-bottom: 2em;
 	:first-child, > article :first-child {
 		margin-top: 0;
 	}
@@ -172,6 +158,15 @@ main {
 		margin-bottom: .5em;
 	}
 }
+
+/* Posts List */
+article {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid white;
+}
+
 
 
 
