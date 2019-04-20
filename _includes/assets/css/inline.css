@@ -176,6 +176,10 @@ header .menu-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
 
+header .ads-banner img {
+  max-width: 100%;
+}
+
 /* main */
 main :first-child, main > article :first-child {
   margin-top: 0;
