@@ -90,7 +90,12 @@ button {
 	color: white;
 	cursor: pointer;
 }
-
+.pull-right {
+	float: right;
+}
+.pull-left {
+	float: left;
+}
 /* Header  */
 header {
 	>em {
@@ -119,16 +124,19 @@ header {
 			}
 		}
 	}
+	
 	.nav-top {
-		border-bottom: 1px solid #333;
-		.pull-right {
-			float: right;
-		}
+		border-bottom: 1px solid #333;		
 		#secondary-menu{
 			display: table;
 			float: left;
 		}
 		
+	}
+	.brand{
+		display: table;
+		float: left;
+
 	}
 }
 

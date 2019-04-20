@@ -103,6 +103,14 @@ button {
   cursor: pointer;
 }
 
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
 /* Header  */
 header > em {
   display: block;
@@ -134,11 +142,12 @@ header .nav-top {
   border-bottom: 1px solid #333;
 }
 
-header .nav-top .pull-right {
-  float: right;
+header .nav-top #secondary-menu {
+  display: table;
+  float: left;
 }
 
-header .nav-top #secondary-menu {
+header .brand {
   display: table;
   float: left;
 }
