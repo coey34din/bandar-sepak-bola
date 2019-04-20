@@ -142,20 +142,16 @@ header {
 				}
 				span {
 					position: absolute;
-					top:0;
+					top: 0;
 					left: auto;
-					right: -15px;	
-					line-height: 37px;
+					right: -18px;
+					line-height: 35px;
 					display: inline-block;
-					margin-right: 5px;
+					margin-right: 4px;
 					color: #333;
-					width: 70px;
-					font-size: 18px !important;
+					font-size: 18px!important;
 					text-align: center;
 					-webkit-transition: all .25s ease-in-out;
-					-moz-transition: all .25s ease-in-out;
-					-ms-transition: all .25s ease-in-out;
-					-o-transition: all .25s ease-in-out;
 					transition: all .25s ease-in-out;
 					:before {
 						position: relative;
