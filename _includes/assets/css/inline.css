@@ -37,7 +37,13 @@ ul {
   list-style: none;
 }
 
-/* Contact Form */
+.social-menu, .navbar, .nav-top ul.secondary-menu, .nav-bottom ul.secondary-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  min-height: inherit;
+}
+
 /* Header  */
 header > em {
   display: block;
