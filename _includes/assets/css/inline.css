@@ -44,6 +44,14 @@ ul {
   min-height: inherit;
 }
 
+.social-menu li, .nav-top ul.secondary-menu li, .nav-bottom ul.secondary-menu li {
+  display: inline-block;
+  float: left;
+  padding: 14px 28px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
 /* Header  */
 header > em {
   display: block;
