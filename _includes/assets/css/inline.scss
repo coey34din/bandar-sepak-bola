@@ -51,6 +51,25 @@ header {
 		font-style: normal;
 	}
 
+	nav {
+		ul {
+			&:first-child {
+				margin-left: 0;
+				li {
+					display: inline-block;
+					margin: 0 .5em;
+					a[href]:not(:hover) {
+						text-decoration: none;
+					}
+					a[data-current="current item"] {
+						font-weight: 700;
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+	
 	.nav-top {
 		border-bottom: 1px solid #333;		
 		#secondary-menu{
