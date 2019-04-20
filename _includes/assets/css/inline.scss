@@ -123,6 +123,13 @@ header {
 		font-weight: bold;
 		font-style: normal;
 	}
+	.secondary-menu{
+		display: table;
+		float: left;
+	}
+	.pull-right{
+		float: right;
+	}
 	nav {
 		ul {
 			&:first-child {

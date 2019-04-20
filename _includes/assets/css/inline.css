@@ -139,6 +139,15 @@ header > em {
   font-style: normal;
 }
 
+header .secondary-menu {
+  display: table;
+  float: left;
+}
+
+header .pull-right {
+  float: right;
+}
+
 header nav ul:first-child {
   margin-left: 0;
 }
