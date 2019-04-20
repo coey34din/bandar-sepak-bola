@@ -71,31 +71,8 @@ form {
 	}
 }
 
-input,
-textarea,
-button {
-	width: 100%;
-	padding: 1em;
-	margin-bottom: 1em;
-	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
-}
-input,
-textarea {
-	border: 1px solid black;
-}
-button {
-	border: 1px solidyellow;
-	background-color:yellow;
-	color: white;
-	cursor: pointer;
-}
-.pull-right {
-	float: right;
-}
-.pull-left {
-	float: left;
-}
+
+
 /* Header  */
 header {
 	>em {
