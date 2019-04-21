@@ -144,7 +144,7 @@ header {
 					position: absolute;
 					top: 0;
 					left: auto;
-					right: -18px;
+					right: -45px;
 					line-height: 35px;
 					display: inline-block;
 					margin-right: 4px;
@@ -154,6 +154,7 @@ header {
 					-webkit-transition: all .25s ease-in-out;
 					transition: all .25s ease-in-out;
 					:before {
+						
 						position: relative;
 						top: 1px;
 					}
