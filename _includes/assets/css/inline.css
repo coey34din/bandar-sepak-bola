@@ -149,6 +149,7 @@ header .nav-bottom .form-search-box form input {
   padding-right: 15px;
   color: #333;
   font-size: 14px;
+  width: 100%;
 }
 
 header .nav-bottom .form-search-box form span {
