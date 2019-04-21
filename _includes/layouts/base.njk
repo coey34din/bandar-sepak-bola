@@ -4,10 +4,9 @@
 <body>
 	<div class="wrapper">
 		<header>
-			<nav class="nav-top hidden-xs">
-				<div class="container">
-					<div class="clearfix">
-						<div id="secondary-menu">
+			<nav class="nav-top">
+				<div class="container">				 	
+						<div id="secondary-menu" class="is-6">
 							hadir
 						</div>
 						<div class="pull-right">
@@ -19,12 +18,10 @@
 								<li><a href=""><i class="fab fa-dribbble-square"></i></a></li>
 							</ul>
 						</div>
-					</div>
 				</div>
 			</nav>
 			<div class="container">
 				<div class="main-content">
-					<div class="clearfix">
 						<em>
 							<a  class="brand" href="{{ '/' | url }}">{{ metadata.title }}</a>
 						</em>
@@ -43,12 +40,10 @@
 								<span class="icon-cross"></span>
 							</button>
 						</nav>
-					</div>
 				</div>
 			</div>
 			<nav class="nav-bottom">
 					<div class="container">
-						<div class="clearfix">
 							<div id="main-menu" class="pull-left">
 								{% include "components/nav.njk" %}
 							</div>
@@ -58,7 +53,6 @@
 									<span ><i class="fas fa-search"></i></span>
 								</form>
 							</div>
-						</div>
 					</div>
 				</nav>
 			
