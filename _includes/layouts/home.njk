@@ -3,35 +3,32 @@ layout: layouts/base.njk
 section: home
 ---
 <section class="slider">
-    <div class="fadeOut owl-carousel owl-theme">
-        <div class="item">
+     <section class="lazy slider" data-sizes="50vw">
+        <div>
             <img src="{{ '/' | url }}static/img/kitchen_adventurer_cheesecake_brownie.jpg" />
         </div>
-        <div class="item">
+        <div>
             <img src="{{ '/' | url }}static/img//kitchen_adventurer_lemon.jpg" />
         </div>
-        <div class="item">
+        <div>
             <img src="{{ '/' | url }}static/img//kitchen_adventurer_donut.jpg" />
                 </li>
         </div>
-        <div class="item">
+        <div>
             <img src="{{ '/' | url }}static/img/kitchen_adventurer_caramel.jpg" />
-        </div>
-                
+        </div>                
     </div>
+    
 </section>
 <section>
 {{ layoutContent | safe }}
 </section>
-<script async src="{{ '/' | url }}_includes/assets/js/owl.carousel.min.js"></script>
-  <link rel='stylesheet' href="{{ '/' | url }}_includes/assets/css/animate.css">
-<script>
-jQuery(document).ready(function($) {
-    $('.fadeOut').owlCarousel({
-    items: 1,
-    animateOut: 'fadeOut',
-    loop: true,
-    margin: 10,
-    });            
-});
+<script src="{{ '/' | url }}_include/assets/js/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(document).on('ready', function() {
+        $(".lazy").slick({
+            lazyLoad: 'ondemand', // ondemand progressive anticipated
+            infinite: true
+        });
+    });
 </script>
