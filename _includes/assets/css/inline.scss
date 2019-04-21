@@ -80,27 +80,17 @@ header {
 		}	
 	}	
 	.menu-toggle{
-		display: none;
 		position: relative;
 		padding: 20px 15px;
 		float: right;
 		background-color: transparent;
-		background-image: none;
 		border: 1px solid transparent;
-		.icon-bar {
-			background-color: #ffffff;
-			display: block;
-			width: 22px;
-			height: 3px;
-			border-radius: 1px;
-			-moz-border-radius: 1px;
-			-webkit-border-radius: 1px;
+		color: white;
 		}
-		.icon-bar + .icon-bar {
-			margin-top: 4px;
-		}
+	.btn-search{
+		background-color: transparent;
+		border: 1px solid transparent;
 	}
-	
 	.main-content {
 		padding: 30px 0;
 		.brand{
