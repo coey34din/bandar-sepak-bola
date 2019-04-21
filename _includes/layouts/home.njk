@@ -3,39 +3,34 @@ layout: layouts/base.njk
 section: home
 ---
 <section class="slider">
-<div class="flexslider">
-    <ul class="slides">
-        <li data-thumb="{{ '/' | url }}static/img/kitchen_adventurer_cheesecake_brownie.jpg">
+    <div class="fadeOut owl-carousel owl-theme">
+        <div class="item">
             <img src="{{ '/' | url }}static/img/kitchen_adventurer_cheesecake_brownie.jpg" />
-            </li>
-            <li data-thumb="{{ '/' | url }}static/img/kitchen_adventurer_lemon.jpg">
+        </div>
+        <div class="item">
             <img src="{{ '/' | url }}static/img//kitchen_adventurer_lemon.jpg" />
-            </li>
-            <li data-thumb="{{ '/' | url }}static/img/kitchen_adventurer_donut.jpg">
+        </div>
+        <div class="item">
             <img src="{{ '/' | url }}static/img//kitchen_adventurer_donut.jpg" />
-            </li>
-            <li data-thumb="{{ '/' | url }}static/img/kitchen_adventurer_caramel.jpg">
+                </li>
+        </div>
+        <div class="item">
             <img src="{{ '/' | url }}static/img/kitchen_adventurer_caramel.jpg" />
-        </li>
-    </ul>
-</div>
+        </div>
+                
+    </div>
 </section>
 <section>
 {{ layoutContent | safe }}
 </section>
-
-<script async src="{{ '/' | url }}_includes/assets/js/jquery.flexslider.js"></script>
-<script type="text/javascript">
-    $(function(){
-        SyntaxHighlighter.all();
-    });
-    $(window).load(function(){
-        $('.flexslider').flexslider({
-            animation: "slide",
-            controlNav: "thumbnails",
-            start: function(slider){
-                $('body').removeClass('loading');
-            }
-        });
+<script async src="{{ '/' | url }}_includes/assets/js/owl.carousel.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+        $('.fadeOut').owlCarousel({
+        items: 1,
+        animateOut: 'fadeOut',
+        loop: true,
+        margin: 10,
+        });            
     });
 </script>
