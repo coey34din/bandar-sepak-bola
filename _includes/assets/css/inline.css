@@ -103,11 +103,7 @@ header .main-content .brand {
   float: left;
 }
 
-header .main-content .ads-banner {
-  width: 60%;
-}
-
-header .main-content .ads-banner .img-fluid {
+header .main-content .img-fluid {
   width: 100%;
 }
 
