@@ -80,7 +80,6 @@ header {
 	
 	.main-content {
 		padding: 10px 0;
-		display: table;
 		width: 100%;
 		.brand{
 			display: table;
@@ -266,8 +265,11 @@ h6.widget-title {
 
 }
 @media screen and (max-width: 768px) {
-	.nav-top, .main-content{
-		display: none;
+	header{
+		.nav-top, .main-content{
+			display: none;
+		}
 	}
+	
 
 }
