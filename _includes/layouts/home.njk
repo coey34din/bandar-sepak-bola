@@ -4,7 +4,13 @@ section: home
 ---
 <section class="columns">
     <aside class="col-md-8">
-        
+        <div class="rslides_container">   
+            <ul class="rslides" id="slider1">
+                <li><img  src="{{ '/' | url }}static/img/kitchen_adventurer_caramel.jpg"></li>
+                <li><img  src="{{ '/' | url }}static/img/kitchen_adventurer_cheesecake_brownie.jpg"></li>
+                <li><img  src="{{ '/' | url }}static/img/kitchen_adventurer_donut.jpg"></li>
+            </ul>
+        </div>
     </aside>
     <aside class="col-md-4">
         <article>
@@ -23,7 +29,7 @@ section: home
         pager: true,
         nav: true,
         speed: 500,
-        maxwidth: 1170,
+        maxwidth: auto,
         namespace: "centered-btns"
         });
     });
