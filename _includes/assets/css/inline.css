@@ -63,8 +63,8 @@ ul {
   border-radius: 30px;
 }
 
-.border-none {
-  border: 0;
+.border-left-none {
+  border-left: 0;
 }
 
 /* Header  */
