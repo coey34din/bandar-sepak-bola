@@ -59,6 +59,10 @@ ul {
   font-size: 12px;
 }
 
+.btn, .form-control {
+  border-radius: 30px;
+}
+
 /* Header  */
 header {
   background: black;
