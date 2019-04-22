@@ -62,6 +62,7 @@ ul {
 /* Header  */
 header {
   background: black;
+  color: white;
 }
 
 header > em {
