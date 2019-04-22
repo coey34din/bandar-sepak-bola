@@ -7,10 +7,10 @@
 			<nav class="nav-top">
 				<div class="container">		
 					<div class="columns">		 	
-						<div id="secondary-menu" class="column">
+						<div id="secondary-menu" class="col-md-6">
 							hadir ada aja
 						</div>
-						<div class="column">
+						<div class="col-md-6">
 							<ul class="social-menu">
 								<li><a href=""><i class="fab fa-facebook"></i></a></li>
 								<li><a href=""><i class="fab fa-twitter-square"></i></a></li>
@@ -24,10 +24,10 @@
 			</nav>
 			<div class="container">
 				<div class="main-content columns">
-					<div class="column is-4">
+					<div class="col-md-4">
 						<a  class="brand" href="{{ '/' | url }}">{{ metadata.title }}</a>
 					</div>
-					<div class="ads-banner column">
+					<div class="ads-banner col-md-8">
 						<a href="#" class="ads-large"><img src="{{ '/' | url }}static/img/728x90_ad.png" class="img-fluid" alt="Responsive image"></a>							
 					</div>						
 				</div>
@@ -35,10 +35,10 @@
 			<nav class="nav-bottom">
 				<div class="container">
 					<div class="columns">
-						<div id="main-menu" class="column is-8">
+						<div id="main-menu" class="col-md-8">
 							{% include "components/nav.njk" %}
 						</div>
-						<div class="form-search-box column">
+						<div class="form-search-box col-md-4">
 							<form action="">
 								<input type="text" class="search-box" placeholder="Type here">
 								<span ><i class="fas fa-search"></i></span>
