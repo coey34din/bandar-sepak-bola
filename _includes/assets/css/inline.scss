@@ -114,51 +114,8 @@ header {
 			}
 		}
 	}
-	.nav-bottom {
-		background: #e5e3e3;
-		border-top: 1px solid #181616;
-		border-bottom: 1px solid #e5e5e5;
-		color: black;		
-		.form-search-box{
-			position: static;
-			display: block;
-			float: right;
-			margin-top: 11px;
-			background: transparent;
-			border: none;
-			form {
-				position: relative;
-				input {
-					border-radius: 999px;
-					background: #fdfdfd;
-					border: 1px solid #ebebeb;
-					line-height: 35px;
-					height: 35px;
-					padding-left: 35px;
-					padding-right: 15px;
-					color: #333;
-					font-size: 14px;
-					width: 100%;
-				}
-				span {
-					position: absolute;
-					top: 0;
-					left: 10px;
-					line-height: 35px;
-					display: inline-block;
-					margin-right: 4px;
-					color: #333;
-					font-size: 18px!important;
-					text-align: center;
-					-webkit-transition: all .25s ease-in-out;
-					transition: all .25s ease-in-out;
-					:before {						
-						position: relative;
-						top: 1px;
-					}
-				}
-			}			
-		}
+	.top-nav {
+		margin-bottom: 25px;
 	}
 	.main-menu{
 		li {
