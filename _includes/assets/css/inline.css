@@ -16,11 +16,7 @@ body {
 }
 
 body {
-  display: -ms-grid;
-  display: grid;
   height: 100vh;
-  -ms-grid-rows: auto 1fr auto;
-      grid-template-rows: auto 1fr auto;
 }
 
 h1 {
