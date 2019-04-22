@@ -45,20 +45,6 @@ ul {
   list-style: none;
 }
 
-.social-menu, .navbar, .nav-top ul.secondary-menu, .nav-bottom ul.secondary-menu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  min-height: inherit;
-}
-
-.social-menu li, .nav-top ul.secondary-menu li, .nav-bottom ul.secondary-menu li {
-  display: block;
-  float: left;
-  text-transform: uppercase;
-  font-size: 12px;
-}
-
 .btn, .form-control {
   border-radius: 30px;
 }
