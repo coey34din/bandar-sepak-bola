@@ -97,6 +97,7 @@ header .nav-top #secondary-menu {
 header .nav-top .social-menu {
   display: table;
   margin: 5px 0;
+  float: right;
 }
 
 header .nav-top .social-menu li {
