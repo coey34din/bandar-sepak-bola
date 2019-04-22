@@ -88,10 +88,11 @@ header .nav-top .social-menu {
 
 header .nav-top .social-menu li {
   padding: 0 5px;
+  float: left;
 }
 
 header .nav-top .social-menu li a {
-  font-size: 18px;
+  font-size: 24px;
   color: white;
 }
 
