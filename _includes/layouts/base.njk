@@ -6,7 +6,7 @@
 		<header>
 			<nav class="nav-top">
 				<div class="container">		
-					<div class="columns">		 	
+					<div class="row">		 	
 						<div id="secondary-menu" class="col-md-6">
 							hadir ada aja
 						</div>
@@ -22,15 +22,17 @@
 					</div>
 				</div>
 			</nav>
-			<div class="container">
-				<div class="main-content columns">
-					<div class="col-md-4">
-						<a  class="brand" href="{{ '/' | url }}">{{ metadata.title }}</a>
-					</div>
-					<div class="ads-banner col-md-8">
-						<a href="#">
-							<img class="img-fluid" src="{{ '/' | url }}static/img/728x90_ad.png" alt="Responsive image">
-						</a>							
+			<div class="main-content">
+				<div class="container">
+					<div class="row">				
+						<div class="col-md-4">
+							<a  class="brand" href="{{ '/' | url }}">{{ metadata.title }}</a>
+						</div>
+						<div class="col-md-8">
+							<a href="#">
+								<img class="img-fluid" src="{{ '/' | url }}static/img/728x90_ad.png" alt="Responsive image">
+							</a>							
+						</div>
 					</div>						
 				</div>
 			</div>

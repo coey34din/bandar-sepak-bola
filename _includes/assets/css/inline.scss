@@ -265,4 +265,9 @@ h6.widget-title {
 		}
 
 }
+@media screen and (max-width: 768px) {
+	.nav-top, .main-content{
+		display: none;
+	}
 
+}

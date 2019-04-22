@@ -295,3 +295,9 @@ h6.widget-title:after {
     font-size: 1.1rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .nav-top, .main-content {
+    display: none;
+  }
+}
