@@ -87,9 +87,9 @@ header {
 			float: left;	
 		}
 		.ads-banner{
-			width: 60%
-			img {
-				max-width: 100%;
+			width: 60%;
+			.img-fluid {
+				width: 100%;
 			}
 		}
 	}

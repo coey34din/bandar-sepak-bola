@@ -104,8 +104,11 @@ header .main-content .brand {
 }
 
 header .main-content .ads-banner {
-  width: 60% img;
-  width-max-width: 100%;
+  width: 60%;
+}
+
+header .main-content .ads-banner .img-fluid {
+  width: 100%;
 }
 
 header .top-nav {
