@@ -253,9 +253,13 @@ h6.widget-title {
     margin-bottom: 30px;
     position: relative;
 	margin-bottom: 43px;
-	&:after {
-		border-bottom: 3px solid #23a0bf;
-	}
+	:after {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: -13px;
+		width: 60px;
+		border-bottom: 3px solid #181616;
 }
 
 /* boostrap edit end */

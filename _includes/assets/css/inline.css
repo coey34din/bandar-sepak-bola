@@ -285,7 +285,7 @@ h6.widget-title {
   margin-bottom: 43px;
 }
 
-h6.widget-title:after {
+h6.widget-title :after {
   border-bottom: 3px solid #23a0bf;
 }
 
