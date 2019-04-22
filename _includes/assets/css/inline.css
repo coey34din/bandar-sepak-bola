@@ -395,9 +395,8 @@ article {
 .widget-tag a {
   display: inline-block;
   float: left;
-  background: #ffffff;
-  color: #181616;
-  border: 1px solid #181616;
+  color: #fff;
+  border: 1px solid #fff;
   text-transform: uppercase;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   border-radius: 30px;
