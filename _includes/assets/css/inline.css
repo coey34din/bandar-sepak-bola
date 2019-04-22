@@ -60,6 +60,10 @@ ul {
 }
 
 /* Header  */
+header {
+  background: black;
+}
+
 header > em {
   display: block;
   font-size: 2em;
