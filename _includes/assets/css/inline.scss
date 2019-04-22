@@ -415,6 +415,11 @@ article {
 }
 footer{
 	padding: 20px;
+	.copyright {
+		border-top: 1px solid #333333;
+		margin-top: 20px;
+		color: #727272;
+	}
 }
 @media screen and (min-width: 768px) {
 	:root {

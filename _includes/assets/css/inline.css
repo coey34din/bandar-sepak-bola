@@ -449,6 +449,12 @@ footer {
   padding: 20px;
 }
 
+footer .copyright {
+  border-top: 1px solid #333333;
+  margin-top: 20px;
+  color: #727272;
+}
+
 @media screen and (min-width: 768px) {
   :root {
     font-size: 1.1rem;
