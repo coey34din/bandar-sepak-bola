@@ -14,23 +14,10 @@ section: home
     </aside>
     <aside class="column is-3">
         <article>
-            <div class="image">
-                <img src="{{ '/' | url }}static/img/bola1.jpg">
-            </div>
-            <div class="content">
-                <h3>
-                    <strong>Lorem ipsum dolor sit amet</strong>
-                </h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-                </p>
-            </div>     
+          {{ layoutContent | safe }}
         </article>
         
     </aside>
-</section>
-<section>
-    {{ layoutContent | safe }}
 </section>
 
 
