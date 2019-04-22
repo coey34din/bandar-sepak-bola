@@ -124,6 +124,8 @@ header .btn-search {
 
 header .main-content {
   padding: 10px 0;
+  display: table;
+  width: 100%;
 }
 
 header .main-content .brand {
