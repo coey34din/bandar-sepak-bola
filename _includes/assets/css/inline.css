@@ -463,6 +463,7 @@ footer .copyright {
   border-top: 1px solid #333333;
   margin-top: 20px;
   color: #727272;
+  padding: 10px 0;
 }
 
 @media screen and (min-width: 768px) {
