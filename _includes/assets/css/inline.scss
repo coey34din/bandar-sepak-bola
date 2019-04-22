@@ -222,6 +222,8 @@ article {
 		
 	}
 }
+
+
 footer{
 	background: black;
 	padding-top: 30px;
@@ -233,7 +235,9 @@ footer{
 	}
 }
 /* boostrap edit */
-
+.card-img-top{
+	width: 100%;
+}
 /* boostrap edit end */
 @media screen and (min-width: 768px) {
 	:root {
