@@ -73,6 +73,10 @@ header > em {
   font-style: normal;
 }
 
+header .navbar {
+  background: transparent;
+}
+
 header .nav-top {
   border-bottom: 1px solid #333;
 }
