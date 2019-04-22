@@ -263,7 +263,12 @@ footer .copyright {
 }
 
 /* boostrap edit */
-.card-img-top {
+.post-list {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #727272;
+}
+
+.post-list .card-img-top {
   width: 100%;
 }
 
