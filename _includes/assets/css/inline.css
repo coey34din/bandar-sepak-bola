@@ -232,24 +232,6 @@ article {
   border-bottom: none;
 }
 
-.widget-recent .post-title {
-  font-weight: 700;
-  display: block;
-  margin-bottom: 5px;
-}
-
-.widget-recent .meta-entry {
-  font-size: 10px;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  color: gray;
-}
-
-.widget-recent .meta-entry span {
-  color: #b5b5b5;
-  margin-right: 20px;
-}
-
 footer {
   background: black;
   padding-top: 30px;
@@ -263,6 +245,24 @@ footer .copyright {
 }
 
 /* boostrap edit */
+.post-title {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.meta-entry {
+  font-size: 10px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.meta-entry span {
+  color: #b5b5b5;
+  margin-right: 20px;
+}
+
 .post-list {
   margin-bottom: 30px;
   border-bottom: 1px solid #727272;
