@@ -95,20 +95,6 @@ header .nav-top .social-menu li a {
   color: white;
 }
 
-header .menu-toggle {
-  position: relative;
-  padding: 20px 15px;
-  float: right;
-  background-color: transparent;
-  border: 1px solid transparent;
-  color: white;
-}
-
-header .btn-search {
-  background-color: transparent;
-  border: 1px solid transparent;
-}
-
 header .main-content {
   padding: 10px 0;
   display: table;
@@ -153,15 +139,6 @@ header .main-menu li a .active {
 }
 
 /* main */
-main :first-child, main > article :first-child {
-  margin-top: 0;
-}
-
-main > section > article > * {
-  margin-top: 0;
-  margin-bottom: .5em;
-}
-
 /* slider*/
 /* Posts List */
 article {

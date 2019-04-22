@@ -79,18 +79,7 @@ header {
 			}
 		}	
 	}	
-	.menu-toggle{
-		position: relative;
-		padding: 20px 15px;
-		float: right;
-		background-color: transparent;
-		border: 1px solid transparent;
-		color: white;
-		}
-	.btn-search{
-		background-color: transparent;
-		border: 1px solid transparent;
-	}
+	
 	.main-content {
 		padding: 10px 0;
 		display: table;
@@ -135,13 +124,7 @@ header {
 
 /* main */
 main {
-	:first-child, > article :first-child {
-		margin-top: 0;
-	}
-	> section > article > * {
-		margin-top: 0;
-		margin-bottom: .5em;
-	}
+	
 }
 
 
