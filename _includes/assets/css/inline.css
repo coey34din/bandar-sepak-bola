@@ -200,7 +200,7 @@ main #welcome {
   margin-top: 0;
 }
 
-main .carousel-control .arrow-left, main .carousel-control .arrow-left {
+main .carousel-control .arrow-left, main .carousel-control .arrow-right {
   background: url("../static/img/arrow.png") no-repeat;
   height: 34px;
   width: 18px;
