@@ -147,6 +147,10 @@ header .main-menu li a .active {
 }
 
 /* main */
+main .headline {
+  margin-bottom: 30px;
+}
+
 /* slider*/
 /* Posts List */
 article {
