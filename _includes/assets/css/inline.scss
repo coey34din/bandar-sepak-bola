@@ -173,6 +173,18 @@ article {
 
 		}
 	}
+	.social-menu{
+		display: table;
+		margin: 5px 0;
+		li{
+			padding: 0;
+			float: left;
+			a{
+				font-size: 30px;
+				color: white;
+			}
+		}
+	}
 }
 .widget-tag {
 	overflow: hidden;
@@ -207,18 +219,7 @@ article {
 	}
 	
 }
-.social-menu{
-	display: table;
-	margin: 5px 0;
-	li{
-		padding: 0 5px;
-		float: left;
-		a{
-			font-size: 30px;
-			color: black;
-		}
-	}
-}
+
 footer{
 	background: black;
 	padding-top: 30px;
