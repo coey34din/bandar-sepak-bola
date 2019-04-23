@@ -71,6 +71,10 @@ header .brand {
 header .brand h1 {
   font-size: 30px;
   font-weight: 900;
+  padding-left: 125px;
+  vertical-align: top;
+  margin-top: 11px;
+  color: #fff;
 }
 
 header .navbar {
