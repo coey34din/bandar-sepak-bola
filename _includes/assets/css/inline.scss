@@ -182,15 +182,18 @@ main{
 			height: 34px;
 			width: 18px;
 			display: table;
+
 		}
 		.arrow-left{
 			background-position: 2px 8px;
 			float: left;
+			margin-left: 10px;
 
 		}
 		.arrow-right{
 			background-position: -15px 8px;
 			float: right;
+			margin-right: 10px;
 		}
 	}
 	
