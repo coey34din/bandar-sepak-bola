@@ -54,6 +54,14 @@ header {
 		font-weight: bold;
 		font-style: normal;
 	}
+	.brand{
+		background: url("../static/img/logo.svg") no-repeat;
+		height: 100px;
+		h1{
+			font-size: 30px;
+			font-weight: 900;
+		}
+	}
 	.navbar{
 		background: transparent;
 	}

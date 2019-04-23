@@ -63,6 +63,16 @@ header > em {
   font-style: normal;
 }
 
+header .brand {
+  background: url("../static/img/logo.svg") no-repeat;
+  height: 100px;
+}
+
+header .brand h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
 header .navbar {
   background: transparent;
 }
