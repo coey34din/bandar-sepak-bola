@@ -245,6 +245,12 @@ header .navbar-brand{
 	padding-right: 0;
 	font-weight: bold;
 }
+.navbar{
+	border-radius: 0;
+}
+.navbar-inverse{
+	border: none;
+}
 .post-title {
 	font-weight: 700;
 	display: block;
