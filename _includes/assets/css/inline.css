@@ -150,8 +150,8 @@ header .main-menu .navbar-nav li a {
   color: #fff;
 }
 
-header .main-menu .navbar-nav li a :hover {
-  color: orange;
+header .main-menu .navbar-nav li a:hover {
+  color: #02A2F2;
 }
 
 /* main */
