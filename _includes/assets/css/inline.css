@@ -469,8 +469,11 @@ h6.widget-title:after {
   header .navbar-brand {
     display: block;
   }
-  header header .form-search-box {
+  header .form-search-box {
     margin: 15px 0;
+    width: 100%;
+  }
+  header .form-search-box input {
     width: 100%;
   }
   .m-slider {

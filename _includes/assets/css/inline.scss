@@ -415,11 +415,13 @@ h6.widget-title {
 		.navbar-brand{
 			display: block;
 		}
-		header .form-search-box {
+		.form-search-box {
 			margin: 15px 0;
 			width: 100%;
-		}
-		
+			input {
+				width: 100%;
+			}
+		}		
 	}
 	
 	.m-slider{
