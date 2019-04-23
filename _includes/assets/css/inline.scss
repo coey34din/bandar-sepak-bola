@@ -126,6 +126,36 @@ main{
 	#welcome{
 		margin-top: 0;
 	}
+
+	form {
+		display: -ms-grid;
+		display: grid;
+		padding: 2em 0;
+		label {
+			display: none;
+		}
+		input,
+		textarea,
+		button {
+			padding: 1em;
+			margin-bottom: 1em;
+			font-size: 1rem;
+			font-family: "Avenir", "Avenir Next", sans-serif;
+		}
+		
+		input,
+		textarea {
+			border: 1px solid black;
+		}
+		
+		button {
+			border: 1px solid #7a6202;
+			background-color: #7a6202;
+			color: white;
+			cursor: pointer;
+		}
+	}
+
 }
 
 /* slider*/
