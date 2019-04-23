@@ -295,7 +295,11 @@ h6.widget-title {
 		border-bottom: 3px solid #02A2F2;
 	}
 }
-
+.carousel-indicators {
+    position: relative; 
+    bottom: 10px; 
+	left: 50%;
+}
 /* boostrap edit end */
 @media screen and (min-width: 768px) {
 	:root {
