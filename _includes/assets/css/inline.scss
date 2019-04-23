@@ -89,14 +89,16 @@ header {
 		}
 	}
 	.form-search-box{
-		position: static;
-		display: inline-block;
-		float: right;
-		min-width: 180px;
-		max-width: 180px;
-		margin-top: 11px;
-		background: transparent;
-		border: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		right: 13px;
+		background: #181616;
+		font-size: 13px;
+		width: 100%;
+		z-index: 998;
+		form{position: relative;}
 		span, input{
 			line-height: 35px;
 			height: 35px;
@@ -119,14 +121,21 @@ header {
 			}
 		}
 		span{
-			left: auto;
-			right: -15px;
-			color: #DADADA;
 			-webkit-transition: all .25s ease-in-out;
 			-moz-transition: all .25s ease-in-out;
 			-ms-transition: all .25s ease-in-out;
 			-o-transition: all .25s ease-in-out;
 			transition: all .25s ease-in-out;
+			position: absolute;
+			top: 0;
+			left: 0;
+			line-height: 70px;
+			display: inline-block;
+			margin-right: 5px;
+			color: #333;
+			width: 70px;
+			font-size: 18px !important;
+			text-align: center;
 		}
 	}
 	
