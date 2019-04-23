@@ -146,15 +146,17 @@ header .form-search-box input :focus + span {
 }
 
 header .form-search-box span {
-  background: url("../static/img/search.svg") no-repeat;
+  background: url(../static/img/search.svg) no-repeat;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
   position: absolute;
-  top: 1px;
+  top: 9px;
+  left: 9px;
   color: #333;
-  width: 40px;
+  width: 20px;
   height: 20px;
   padding: 0;
+  background-size: cover;
 }
 
 header .main-menu {
