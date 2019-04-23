@@ -30,6 +30,10 @@ h2 {
   font-size: 25px;
 }
 
+h3 {
+  font-size: 22px;
+}
+
 p, pre, code {
   line-height: 1.5;
 }
