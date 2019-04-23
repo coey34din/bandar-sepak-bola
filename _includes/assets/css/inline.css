@@ -200,6 +200,21 @@ main #welcome {
   margin-top: 0;
 }
 
+main .arrow-left, main .arrow-left {
+  background: url("../static/img/arrow.png") no-repeat;
+  height: 18px;
+  width: 18px;
+  display: table;
+}
+
+main .arrow-left {
+  background-position: 2px 8px;
+}
+
+main .arrow-right {
+  background-position: 13px 0px;
+}
+
 main form {
   display: -ms-grid;
   display: grid;
