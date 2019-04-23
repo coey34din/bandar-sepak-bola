@@ -330,6 +330,9 @@ h6.widget-title:after {
   header .navbar-brand {
     display: block;
   }
+  .navbar {
+    margin-bottom: 0;
+  }
   .m-slider {
     margin-right: -15px;
     margin-left: -15px;
