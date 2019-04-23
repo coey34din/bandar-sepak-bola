@@ -205,6 +205,8 @@ main .carousel-control .arrow-left, main .carousel-control .arrow-right {
   height: 34px;
   width: 18px;
   display: table;
+  position: absolute;
+  top: 50%;
 }
 
 main .carousel-control .arrow-left {
