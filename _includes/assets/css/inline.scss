@@ -188,14 +188,14 @@ main{
 		}
 		.arrow-left{
 			background-position: 2px 8px;
-			float: left;
-			margin-left: 10px;
+			left: 10px;
+			
 
 		}
 		.arrow-right{
 			background-position: -15px 8px;
 			float: right;
-			margin-right: 10px;
+			right: -10px;
 		}
 	}
 	
