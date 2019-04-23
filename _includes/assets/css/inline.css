@@ -121,11 +121,11 @@ header .nav-top .social-menu li a {
   color: white;
 }
 
-header .top-nav {
+header .main-menu {
   margin-bottom: 25px;
 }
 
-header .top-nav .navbar-nav li {
+header .main-menu .navbar-nav li {
   display: table;
   position: relative;
   vertical-align: middle;
@@ -133,11 +133,11 @@ header .top-nav .navbar-nav li {
   float: left;
 }
 
-header .top-nav .navbar-nav li :first-child {
+header .main-menu .navbar-nav li :first-child {
   margin-left: 0;
 }
 
-header .top-nav .navbar-nav li a {
+header .main-menu .navbar-nav li a {
   padding: 17px;
   height: 55px;
   display: table;
@@ -145,7 +145,7 @@ header .top-nav .navbar-nav li a {
   color: #fff;
 }
 
-header .top-nav .navbar-nav li a :hover {
+header .main-menu .navbar-nav li a :hover {
   color: orange;
 }
 
@@ -318,6 +318,9 @@ h6.widget-title:after {
 @media screen and (max-width: 768px) {
   header .nav-top, header .main-header {
     display: none;
+  }
+  header .main-menu .navbar-nav li {
+    width: 100%;
   }
 }
 

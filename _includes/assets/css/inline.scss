@@ -106,7 +106,7 @@ header {
 	}	
 	
 	
-	.top-nav {
+	.main-menu {
 		margin-bottom: 25px;
 		.navbar-nav{
 			li {
@@ -290,8 +290,11 @@ h6.widget-title {
 		.nav-top, .main-header{
 			display: none;
 		}
+		.main-menu .navbar-nav li{
+			width: 100%;
+		}
+
 	}
-	
 
 }
 @media screen and (max-width: 1000px) {
