@@ -261,6 +261,8 @@ footer .copyright {
 /* boostrap edit */
 header .navbar-brand {
   display: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .post-title {
