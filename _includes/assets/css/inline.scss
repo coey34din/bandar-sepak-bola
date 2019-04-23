@@ -409,7 +409,12 @@ h6.widget-title {
 			}
 			.navbar-nav li{
 				width: 100%;
-				margin: 6px 0;
+				margin: 0;
+				a{
+					display: block;
+					width: 100%;
+					padding: 6px 6px 6px 15px;
+				}
 			}
 		}
 		.navbar-brand{
