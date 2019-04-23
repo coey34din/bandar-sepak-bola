@@ -74,6 +74,7 @@ header > em {
 }
 
 header .main-header {
+  background: #ccc;
   padding: 10px 0;
   width: 100%;
 }
