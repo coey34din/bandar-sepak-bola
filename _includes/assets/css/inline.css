@@ -415,6 +415,7 @@ header .navbar-brand {
 .featured-article {
   margin-bottom: 30px;
   border-bottom: 1px solid #727272;
+  padding-bottom: 20px;
 }
 
 .featured-article .card-img-top {
