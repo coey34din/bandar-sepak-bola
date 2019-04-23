@@ -176,18 +176,21 @@ main{
 	#welcome{
 		margin-top: 0;
 	}
-	.arrow-left, .arrow-left{
-		background: url("../static/img/arrow.png") no-repeat;
-		height: 34px;
-		width: 18px;
-		display: table;
+	.carousel-control{
+		.arrow-left, .arrow-left{
+			background: url("../static/img/arrow.png") no-repeat;
+			height: 34px;
+			width: 18px;
+			display: table;
+		}
+		.arrow-left{
+			background-position: 2px 8px;
+		}
+		.arrow-right{
+			background-position: 2px 8px;
+		}
 	}
-	.arrow-left{
-		background-position: 2px 8px;
-	}
-	.arrow-right{
-		background-position: 13px 0px;
-	}
+	
 	form {
 		display: -ms-grid;
 		display: grid;

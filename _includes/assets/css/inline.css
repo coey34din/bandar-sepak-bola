@@ -200,19 +200,19 @@ main #welcome {
   margin-top: 0;
 }
 
-main .arrow-left, main .arrow-left {
+main .carousel-control .arrow-left, main .carousel-control .arrow-left {
   background: url("../static/img/arrow.png") no-repeat;
   height: 34px;
   width: 18px;
   display: table;
 }
 
-main .arrow-left {
+main .carousel-control .arrow-left {
   background-position: 2px 8px;
 }
 
-main .arrow-right {
-  background-position: 13px 0px;
+main .carousel-control .arrow-right {
+  background-position: 2px 8px;
 }
 
 main form {
