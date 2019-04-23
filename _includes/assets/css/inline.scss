@@ -88,8 +88,51 @@ header {
 			text-align: right;
 		}
 	}
+	.form-search-box{
+		position: static;
+		display: inline-block;
+		float: right;
+		min-width: 180px;
+		max-width: 180px;
+		margin-top: 11px;
+		background: transparent;
+		border: none;
+		span, input{
+			line-height: 35px;
+			height: 35px;
+			padding-left: 15px;
+			padding-right: 10px;
+			color: #333;
+			font-size: 14px;
+		}
+		input{
+			border-radius: 999px;
+			background: #fdfdfd;
+			border: 1px solid #ebebeb;
+			padding-right: 40px;
+			&:focus{
+				background-color: #fff;
+				border-color: #ddd;
+			}
+			:focus + span{
+				color: #23a0bf;
+			}
+		}
+		span{
+			left: auto;
+			right: -15px;
+			color: #DADADA;
+			-webkit-transition: all .25s ease-in-out;
+			-moz-transition: all .25s ease-in-out;
+			-ms-transition: all .25s ease-in-out;
+			-o-transition: all .25s ease-in-out;
+			transition: all .25s ease-in-out;
+		}
+	}
 	
-	
+
+
+
 	
 	.main-menu {
 		margin-bottom: 25px;
