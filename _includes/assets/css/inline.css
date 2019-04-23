@@ -125,7 +125,7 @@ header .top-nav {
   margin-bottom: 25px;
 }
 
-header .main-menu li {
+header .top-nav .navbar-nav li {
   display: table;
   position: relative;
   vertical-align: middle;
@@ -133,19 +133,19 @@ header .main-menu li {
   float: left;
 }
 
-header .main-menu li :first-child {
+header .top-nav .navbar-nav li :first-child {
   margin-left: 0;
 }
 
-header .main-menu li a {
+header .top-nav .navbar-nav li a {
   padding: 17px;
   height: 55px;
   display: table;
   color: black;
 }
 
-header .main-menu li a .active {
-  background-color: yellowgreen !important;
+header .top-nav .navbar-nav li a .active {
+  background-color: #fcf700 !important;
 }
 
 /* main */

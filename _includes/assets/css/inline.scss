@@ -108,29 +108,28 @@ header {
 	
 	.top-nav {
 		margin-bottom: 25px;
-	}
-	.main-menu{
-		li {
-			display: table;
-			position: relative;
-			vertical-align: middle;
-			z-index: 100;
-			float: left;
-			:first-child {
-				margin-left: 0;
-			}
-			a {
-				padding: 17px;
-				height: 55px;
+		.navbar-nav{
+			li {
 				display: table;
-				color: black;
-				.active {
-					background-color: yellowgreen !important;
+				position: relative;
+				vertical-align: middle;
+				z-index: 100;
+				float: left;
+				:first-child {
+					margin-left: 0;
+				}
+				a {
+					padding: 17px;
+					height: 55px;
+					display: table;
+					color: black;
+					.active {
+						background-color: rgb(252, 247, 0) !important;
+					}
 				}
 			}
 		}
 	}
-	
 }
 
 /* main */
