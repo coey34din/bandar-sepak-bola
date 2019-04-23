@@ -148,6 +148,10 @@ header .main-menu .navbar-nav li a :hover {
 }
 
 /* main */
+main {
+  text-align: justify;
+}
+
 main .headline {
   margin-bottom: 30px;
 }
