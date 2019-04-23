@@ -61,6 +61,10 @@ ul {
 }
 
 /* Header  */
+header {
+  color: black;
+}
+
 header > em {
   display: block;
   font-size: 2em;
