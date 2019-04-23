@@ -54,18 +54,32 @@ header {
 		font-weight: bold;
 		font-style: normal;
 	}
-	.brand{
-		background: url("../static/img/logo.svg") no-repeat;
-
-		h1{
-			font-size: 35px;
-			font-weight: 900;
-			padding-left: 125px;
-			vertical-align: top;
-			margin-top: 11px;
-			color: #fff;
+	.main-header {
+		padding: 10px 0;
+		width: 100%;
+		background: #444;
+		
+		.brand{
+			background: url("../static/img/logo.svg") no-repeat;
+			display: table;
+			float: left;	
+			h1{
+				font-size: 35px;
+				font-weight: 900;
+				padding-left: 125px;
+				vertical-align: top;
+				margin-top: 11px;
+				color: #fff;
+			}		
+		}
+		.img-fluid {
+			width: 100%;
+		}
+		.banner-top{
+			text-align: right;
 		}
 	}
+	
 
 	.navbar{
 		background: transparent;
@@ -91,22 +105,7 @@ header {
 		}	
 	}	
 	
-	.main-header {
-		padding: 10px 0;
-		width: 100%;
-		background: #444;
-		
-		.brand{
-			display: table;
-			float: left;	
-		}
-		.img-fluid {
-			width: 100%;
-		}
-		.banner-top{
-			text-align: right;
-		}
-	}
+	
 	.top-nav {
 		margin-bottom: 25px;
 	}
