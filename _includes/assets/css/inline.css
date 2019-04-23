@@ -445,6 +445,9 @@ h6.widget-title:after {
   :root {
     font-size: 1.1rem;
   }
+  .navbar-nav {
+    margin: 15px 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -459,6 +462,7 @@ h6.widget-title:after {
   }
   header .main-menu .navbar-nav li {
     width: 100%;
+    margin: 6px 0;
   }
   header .navbar-brand {
     display: block;
