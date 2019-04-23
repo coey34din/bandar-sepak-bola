@@ -21,6 +21,11 @@ body {
 
 h1 {
   font-size: 2em;
+  color: #02A2F2;
+}
+
+h2 {
+  color: #02A2F2;
 }
 
 p, pre, code {
@@ -314,7 +319,7 @@ h6.widget-title:after {
   left: 0;
   bottom: -13px;
   width: 60px;
-  border-bottom: 3px solid #23a0bf;
+  border-bottom: 3px solid #02A2F2;
 }
 
 /* boostrap edit end */
