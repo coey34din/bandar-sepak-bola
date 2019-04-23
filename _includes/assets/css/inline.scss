@@ -121,20 +121,13 @@ header {
 		}
 		span{
 			background: url("../static/img/search.png") no-repeat;
-			width: 18px;
-			height: 18px;
-			left: 0;
-			color: #dadada;
 			-webkit-transition: all .25s ease-in-out;
 			transition: all .25s ease-in-out;
 			position: absolute;
 			top: 1px;
-			line-height: 2;
-			display: inline-block;
 			color: #333;
 			width: 40px;
-			font-size: 18px!important;
-			text-align: center;
+			height:20px;
 			padding: 0;
 
 		}
