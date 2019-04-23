@@ -288,9 +288,12 @@ h6.widget-title {
 }
 @media screen and (max-width: 1000px) {
 	header{
-		.brand h1 {
-			padding-left: 130px;
-			margin-top: 29px;
+		.brand{
+			height: 65px;
+			h1 {
+				padding-left: 130px;
+				margin-top: 29px;
+			}
 		}
 		.banner-top{
 			display: none;

@@ -316,6 +316,9 @@ h6.widget-title:after {
 }
 
 @media screen and (max-width: 1000px) {
+  header .brand {
+    height: 65px;
+  }
   header .brand h1 {
     padding-left: 130px;
     margin-top: 29px;
