@@ -185,9 +185,12 @@ main{
 		}
 		.arrow-left{
 			background-position: 2px 8px;
+			float: left;
+
 		}
 		.arrow-right{
 			background-position: -15px 8px;
+			float: right;
 		}
 	}
 	

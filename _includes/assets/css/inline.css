@@ -209,10 +209,12 @@ main .carousel-control .arrow-left, main .carousel-control .arrow-right {
 
 main .carousel-control .arrow-left {
   background-position: 2px 8px;
+  float: left;
 }
 
 main .carousel-control .arrow-right {
   background-position: -15px 8px;
+  float: right;
 }
 
 main form {
