@@ -88,25 +88,6 @@ header {
 		}
 	}
 	
-	.nav-top {
-		#secondary-menu{
-			display: table;
-			float: left;
-		}
-		.social-menu{
-			display: table;
-			margin: 5px 0;
-			float: right;
-			li{
-				padding: 0 5px;
-				float: left;
-				a{
-					font-size: 24px;
-					color: black;
-				}
-			}
-		}	
-	}	
 	
 	
 	.main-menu {
@@ -226,7 +207,19 @@ article {
 	}
 	
 }
-
+.social-menu{
+	display: table;
+	margin: 5px 0;
+	float: right;
+	li{
+		padding: 0 5px;
+		float: left;
+		a{
+			font-size: 24px;
+			color: black;
+		}
+	}
+}
 footer{
 	background: black;
 	padding-top: 30px;
@@ -236,6 +229,7 @@ footer{
 		color: #727272;
 		padding: 10px 0;
 	}
+		
 }
 /* boostrap edit */
 header .navbar-brand{
@@ -303,7 +297,7 @@ h6.widget-title {
 }
 @media screen and (max-width: 768px) {
 	header{
-		.nav-top, .main-header{
+		.main-header{
 			display: none;
 		}
 		.main-menu {

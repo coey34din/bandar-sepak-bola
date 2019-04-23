@@ -101,27 +101,6 @@ header .main-header .banner-top {
   text-align: right;
 }
 
-header .nav-top #secondary-menu {
-  display: table;
-  float: left;
-}
-
-header .nav-top .social-menu {
-  display: table;
-  margin: 5px 0;
-  float: right;
-}
-
-header .nav-top .social-menu li {
-  padding: 0 5px;
-  float: left;
-}
-
-header .nav-top .social-menu li a {
-  font-size: 24px;
-  color: black;
-}
-
 header .main-menu {
   margin-bottom: 25px;
 }
@@ -252,6 +231,22 @@ article {
   border-bottom: none;
 }
 
+.social-menu {
+  display: table;
+  margin: 5px 0;
+  float: right;
+}
+
+.social-menu li {
+  padding: 0 5px;
+  float: left;
+}
+
+.social-menu li a {
+  font-size: 24px;
+  color: black;
+}
+
 footer {
   background: black;
   padding-top: 30px;
@@ -337,7 +332,7 @@ h6.widget-title:after {
 }
 
 @media screen and (max-width: 768px) {
-  header .nav-top, header .main-header {
+  header .main-header {
     display: none;
   }
   header .main-menu {
