@@ -101,14 +101,6 @@ header .main-header .banner-top {
   text-align: right;
 }
 
-header .navbar {
-  background: transparent;
-}
-
-header .nav-top {
-  border-bottom: 1px solid #333;
-}
-
 header .nav-top #secondary-menu {
   display: table;
   float: left;
