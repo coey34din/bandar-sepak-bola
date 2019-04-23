@@ -101,8 +101,6 @@ header {
 		span, input{
 			line-height: 35px;
 			height: 35px;
-			padding-left: 15px;
-			padding-right: 10px;
 			color: #333;
 			font-size: 14px;
 		}
@@ -110,7 +108,8 @@ header {
 			border-radius: 999px;
 			background: #fdfdfd;
 			border: 1px solid #ebebeb;
-			padding-right: 40px;
+			padding-left: 35px;
+			padding-right: 15px;
 			&:focus{
 				background-color: #fff;
 				border-color: #ddd;
@@ -120,23 +119,20 @@ header {
 			}
 		}
 		span{
-			left: auto;
-			right: -15px;
-			color: #DADADA;
+			left: 0;
+			color: #dadada;
 			-webkit-transition: all .25s ease-in-out;
-			-moz-transition: all .25s ease-in-out;
-			-ms-transition: all .25s ease-in-out;
-			-o-transition: all .25s ease-in-out;
 			transition: all .25s ease-in-out;
 			position: absolute;
 			top: 0;
-			line-height: 70px;
+			line-height: 2;
 			display: inline-block;
 			margin-right: 5px;
 			color: #333;
 			width: 70px;
-			font-size: 18px !important;
+			font-size: 18px!important;
 			text-align: center;
+			padding: 0;
 
 		}
 	}
