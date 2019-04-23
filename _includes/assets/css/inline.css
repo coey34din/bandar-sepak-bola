@@ -103,15 +103,14 @@ header .main-header .banner-top {
 }
 
 header .form-search-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  right: 13px;
-  background: #181616;
-  font-size: 13px;
-  width: 100%;
-  z-index: 998;
+  position: static;
+  display: inline-block;
+  float: right;
+  min-width: 180px;
+  max-width: 180px;
+  margin-top: 11px;
+  background: transparent;
+  border: none;
 }
 
 header .form-search-box form {
@@ -144,11 +143,13 @@ header .form-search-box input :focus + span {
 }
 
 header .form-search-box span {
+  left: auto;
+  right: -15px;
+  color: #DADADA;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
   position: absolute;
   top: 0;
-  left: 0;
   line-height: 70px;
   display: inline-block;
   margin-right: 5px;
