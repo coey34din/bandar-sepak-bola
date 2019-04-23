@@ -294,17 +294,18 @@ h6.widget-title {
 		.nav-top, .main-header{
 			display: none;
 		}
-		.main-menu .navbar-nav li{
-			width: 100%;
+		.main-menu {
+			margin-bottom: 0;
+			.navbar-nav li{
+				width: 100%;
+			}
 		}
 		.navbar-brand{
 			display: block;
 		}
 		
 	}
-	.navbar{
-		margin-bottom: 0;
-	}
+	
 	.m-slider{
 		margin-right: -15px;
 		margin-left: -15px;

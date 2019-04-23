@@ -324,14 +324,14 @@ h6.widget-title:after {
   header .nav-top, header .main-header {
     display: none;
   }
+  header .main-menu {
+    margin-bottom: 0;
+  }
   header .main-menu .navbar-nav li {
     width: 100%;
   }
   header .navbar-brand {
     display: block;
-  }
-  .navbar {
-    margin-bottom: 0;
   }
   .m-slider {
     margin-right: -15px;
