@@ -201,9 +201,6 @@ article {
 .widget .social-menu li {
   padding: 0;
   float: left;
-}
-
-.widget .social-menu li:first-child {
   margin-right: 10px;
 }
 

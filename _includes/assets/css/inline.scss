@@ -179,9 +179,7 @@ article {
 		li{
 			padding: 0;
 			float: left;
-			&:first-child {
-				margin-right: 10px;
-			}
+			margin-right: 10px;			
 			&:last-child {
 				margin-right: 0;
 			}
