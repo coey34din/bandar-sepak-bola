@@ -332,6 +332,10 @@ h6.widget-title:after {
   header .navbar-brand {
     display: block;
   }
+  header .m-slider {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
