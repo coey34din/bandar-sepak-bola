@@ -108,6 +108,7 @@ header .nav-top .social-menu li a {
 header .main-header {
   padding: 10px 0;
   width: 100%;
+  background: #444;
 }
 
 header .main-header .brand {
@@ -117,6 +118,10 @@ header .main-header .brand {
 
 header .main-header .img-fluid {
   width: 100%;
+}
+
+header .main-header .banner-top {
+  text-align: right;
 }
 
 header .top-nav {
