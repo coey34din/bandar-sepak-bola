@@ -263,6 +263,7 @@ header .navbar-brand {
   display: none;
   padding-left: 0;
   padding-right: 0;
+  font-weight: bold;
 }
 
 .post-title {
