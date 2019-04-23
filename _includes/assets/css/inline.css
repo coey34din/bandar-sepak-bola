@@ -65,7 +65,6 @@ header > em {
 
 header .brand {
   background: url("../static/img/logo.svg") no-repeat;
-  height: 80px;
 }
 
 header .brand h1 {
