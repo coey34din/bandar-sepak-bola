@@ -124,6 +124,10 @@ header .form-search-box span, header .form-search-box input {
   font-size: 14px;
 }
 
+header .form-search-box .active span {
+  color: #999;
+}
+
 header .form-search-box input {
   border-radius: 999px;
   background: #fdfdfd;
