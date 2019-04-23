@@ -65,7 +65,7 @@ header > em {
 
 header .brand {
   background: url("../static/img/logo.svg") no-repeat;
-  height: 100px;
+  height: 80px;
 }
 
 header .brand h1 {
@@ -311,6 +311,16 @@ h6.widget-title:after {
 
 @media screen and (max-width: 768px) {
   header .nav-top, header .main-content {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header .brand h1 {
+    padding-left: 130px;
+    margin-top: 29px;
+  }
+  header .banner-top {
     display: none;
   }
 }

@@ -56,14 +56,14 @@ header {
 	}
 	.brand{
 		background: url("../static/img/logo.svg") no-repeat;
-		height: 100px;
+		height: 80px;
 		h1{
 			font-size: 30px;
-				font-weight: 900;
-				padding-left: 125px;
-				vertical-align: top;
-				margin-top: 11px;
-				color: #fff;
+			font-weight: 900;
+			padding-left: 125px;
+			vertical-align: top;
+			margin-top: 11px;
+			color: #fff;
 		}
 	}
 
@@ -280,6 +280,19 @@ h6.widget-title {
 @media screen and (max-width: 768px) {
 	header{
 		.nav-top, .main-content{
+			display: none;
+		}
+	}
+	
+
+}
+@media screen and (max-width: 1000px) {
+	header{
+		.brand h1 {
+			padding-left: 130px;
+			margin-top: 29px;
+		}
+		.banner-top{
 			display: none;
 		}
 	}
