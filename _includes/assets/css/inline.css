@@ -163,6 +163,10 @@ main .headline {
   margin-bottom: 30px;
 }
 
+main #welcome {
+  margin-top: 0;
+}
+
 /* slider*/
 /* Posts List */
 article {
