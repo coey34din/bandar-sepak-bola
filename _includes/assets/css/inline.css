@@ -105,17 +105,17 @@ header .nav-top .social-menu li a {
   color: white;
 }
 
-header .main-content {
+header .main-header {
   padding: 10px 0;
   width: 100%;
 }
 
-header .main-content .brand {
+header .main-header .brand {
   display: table;
   float: left;
 }
 
-header .main-content .img-fluid {
+header .main-header .img-fluid {
   width: 100%;
 }
 
@@ -313,7 +313,7 @@ h6.widget-title:after {
 }
 
 @media screen and (max-width: 768px) {
-  header .nav-top, header .main-content {
+  header .nav-top, header .main-header {
     display: none;
   }
 }
