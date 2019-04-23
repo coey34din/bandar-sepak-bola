@@ -259,6 +259,10 @@ footer .copyright {
 }
 
 /* boostrap edit */
+header .navbar-brand {
+  display: none;
+}
+
 .post-title {
   font-weight: 700;
   display: block;
@@ -321,6 +325,9 @@ h6.widget-title:after {
   }
   header .main-menu .navbar-nav li {
     width: 100%;
+  }
+  header .navbar-brand {
+    display: block;
   }
 }
 
