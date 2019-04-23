@@ -141,11 +141,11 @@ header .top-nav .navbar-nav li a {
   padding: 17px;
   height: 55px;
   display: table;
-  color: black;
+  color: fff;
 }
 
-header .top-nav .navbar-nav li a .active {
-  background-color: #fcf700 !important;
+header .top-nav .navbar-nav li a :hover {
+  color: orange;
 }
 
 /* main */

@@ -122,10 +122,11 @@ header {
 					padding: 17px;
 					height: 55px;
 					display: table;
-					color: black;
-					.active {
-						background-color: rgb(252, 247, 0) !important;
+					color: fff;
+					:hover{
+						color: orange;
 					}
+					
 				}
 			}
 		}
