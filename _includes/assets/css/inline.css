@@ -106,8 +106,6 @@ header .form-search-box {
   position: static;
   display: block;
   float: right;
-  min-width: 180px;
-  max-width: 180px;
   margin-top: 7px;
   background: transparent;
   border: none;
@@ -161,6 +159,10 @@ header .form-search-box span {
 
 header .main-menu {
   margin-bottom: 25px;
+}
+
+header .main-menu .navbar-nav {
+  display: table;
 }
 
 header .main-menu .navbar-nav li {
@@ -466,6 +468,10 @@ h6.widget-title:after {
   }
   header .navbar-brand {
     display: block;
+  }
+  header header .form-search-box {
+    margin: 15px 0;
+    width: 100%;
   }
   .m-slider {
     margin-right: -15px;

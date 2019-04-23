@@ -92,8 +92,6 @@ header {
 		position: static;
 		display: block;
 		float: right;
-		min-width: 180px;
-		max-width: 180px;
 		margin-top: 7px;
 		background: transparent;
 		border: none;
@@ -136,6 +134,7 @@ header {
 	.main-menu {
 		margin-bottom: 25px;
 		.navbar-nav{
+			display: table;
 			li {
 				display: table;
 				position: relative;
@@ -415,6 +414,10 @@ h6.widget-title {
 		}
 		.navbar-brand{
 			display: block;
+		}
+		header .form-search-box {
+			margin: 15px 0;
+			width: 100%;
 		}
 		
 	}
