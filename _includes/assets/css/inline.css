@@ -78,6 +78,7 @@ header .main-header {
   padding: 10px 0;
   width: 100%;
   background: #444;
+  margin-bottom: 25px;
 }
 
 header .main-header .brand {
