@@ -179,9 +179,14 @@ article {
 		li{
 			padding: 0;
 			float: left;
+			margin: 
 			a{
 				font-size: 30px;
 				color: white;
+				margin-right:10px;
+				&:first-child{
+					margin-right: 0;
+				}
 			}
 		}
 	}
