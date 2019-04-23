@@ -94,6 +94,8 @@ header {
 	.main-header {
 		padding: 10px 0;
 		width: 100%;
+		background: $444;
+		
 		.brand{
 			display: table;
 			float: left;	
@@ -101,7 +103,9 @@ header {
 		.img-fluid {
 			width: 100%;
 		}
-
+		.banner-top{
+			text-align: right;
+		}
 	}
 	.top-nav {
 		margin-bottom: 25px;
