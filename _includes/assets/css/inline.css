@@ -331,6 +331,9 @@ h6.widget-title:after {
   header .main-menu {
     margin-bottom: 0;
   }
+  header .main-menu .navbar {
+    margin-bottom: 0;
+  }
   header .main-menu .navbar-nav li {
     width: 100%;
   }
