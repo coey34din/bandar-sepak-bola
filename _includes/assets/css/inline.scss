@@ -56,13 +56,15 @@ ul {
 }
 /* svg icon */
 
+svg{
+	.block {
+		display: block;
+	}
+	.text-grey {
+		color: grey;
+	}
+}
 
-.block {
-    display: block;
-}
-.text-grey {
-	color: red;
-}
 /* Header  */
 header {
 	color: black;

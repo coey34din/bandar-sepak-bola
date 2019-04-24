@@ -61,12 +61,12 @@ ul {
 }
 
 /* svg icon */
-.block {
+svg .block {
   display: block;
 }
 
-.text-grey {
-  color: red;
+svg .text-grey {
+  color: grey;
 }
 
 /* Header  */
