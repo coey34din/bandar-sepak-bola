@@ -451,6 +451,10 @@ header .navbar-brand {
   width: 100%;
 }
 
+.featured-article .main-featured .excerpt {
+  color: black;
+}
+
 h6.widget-title {
   font-weight: 600;
   color: #23a0bf;
