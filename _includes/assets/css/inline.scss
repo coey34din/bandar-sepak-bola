@@ -383,12 +383,18 @@ header .navbar-brand{
 	margin-bottom: 30px;
 	border-bottom: 1px solid #727272;
 	padding-bottom: 20px;
-	.card-img-top{
-		display: block;
-		img{
-			width: 100%;
+	.main-featured{
+		padding-right: 10px;
+		&:last-child { 
+			padding-right: 0;
 		}
-	}
+		.card-img-top{
+			display: block;
+			img{
+				width: 100%;
+			}
+		}
+	}	
 }
 h6.widget-title { 
     font-weight: 600;

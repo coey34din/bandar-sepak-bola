@@ -439,11 +439,19 @@ header .navbar-brand {
   padding-bottom: 20px;
 }
 
-.featured-article .card-img-top {
+.featured-article .main-featured {
+  padding-right: 10px;
+}
+
+.featured-article .main-featured:last-child {
+  padding-right: 0;
+}
+
+.featured-article .main-featured .card-img-top {
   display: block;
 }
 
-.featured-article .card-img-top img {
+.featured-article .main-featured .card-img-top img {
   width: 100%;
 }
 
