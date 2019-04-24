@@ -85,6 +85,10 @@ svg.block {
   display: block;
 }
 
+.text-grey {
+  color: #b8c2cc;
+}
+
 /* Header  */
 header {
   color: black;
