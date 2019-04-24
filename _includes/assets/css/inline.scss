@@ -454,6 +454,10 @@ h6.widget-title {
 		margin: 15px 0;
 	}
 }
+
+@media screen and (max-width: 658px) {
+	
+}
 @media screen and (max-width: 768px) {
 	header{
 		.main-header{
@@ -485,7 +489,11 @@ h6.widget-title {
 			}
 		}		
 	}
-	
+	.p-list {
+		.thum-list {
+			width: 161px;
+		}
+	}
 	.m-slider{
 		margin-right: -15px;
 		margin-left: -15px;

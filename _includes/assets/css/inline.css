@@ -541,6 +541,9 @@ h6.widget-title:after {
   header .form-search-box input {
     width: 100%;
   }
+  .p-list .thum-list {
+    width: 161px;
+  }
   .m-slider {
     margin-right: -15px;
     margin-left: -15px;
