@@ -384,10 +384,7 @@ header .navbar-brand{
 	border-bottom: 1px solid #727272;
 	padding-bottom: 20px;
 	.main-featured{
-		padding-right: 10px;
-		&:last-child { 
-			padding-right: 0;
-		}
+		padding-right: 10px;	
 		.card-img-top{
 			display: block;
 			img{

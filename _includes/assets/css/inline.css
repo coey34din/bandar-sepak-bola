@@ -443,10 +443,6 @@ header .navbar-brand {
   padding-right: 10px;
 }
 
-.featured-article .main-featured:last-child {
-  padding-right: 0;
-}
-
 .featured-article .main-featured .card-img-top {
   display: block;
 }
