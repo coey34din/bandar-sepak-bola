@@ -55,7 +55,31 @@ ul {
 	border-left: 0;
 }
 
+a[rel=tag], a[rel=tag]:visited {
+	display: inline-block;
+	vertical-align: text-top;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: .62em;
+	padding: 3px 8px;
+	line-height: 1.5em;
+	height: 2em;
+	border-radius: 30px;
+	text-decoration: none;
+	margin: 0 .5em .5em 0;
+	border: 1px solid #ddd;
+	cursor: pointer;
 
+}
+a[rel="tag"]:hover {
+	border: 1px solid #ccc;
+	background-color: #ccc;
+	color: white;
+}
+
+a[rel="tag"]:last-child {
+	margin-right: 0;
+}  
 /* Header  */
 header {
 	color: black;
@@ -312,31 +336,7 @@ article {
     aside{
         display: inline-table;
 	}
-	a[rel=tag], a[rel=tag]:visited {
-		display: inline-block;
-		vertical-align: text-top;
-		text-transform: uppercase;
-		letter-spacing: .1em;
-		font-size: .62em;
-		padding: 3px 8px;
-		line-height: 1.5em;
-		height: 2em;
-		border-radius: 30px;
-		text-decoration: none;
-		margin: 0 .5em .5em 0;
-		border: 1px solid #ddd;
-		cursor: pointer;
-
-	}
-	a[rel="tag"]:hover {
-		border: 1px solid #ccc;
-		background-color: #ccc;
-		color: white;
-	}
 	
-	a[rel="tag"]:last-child {
-		margin-right: 0;
-	}  
 	
 }
 
