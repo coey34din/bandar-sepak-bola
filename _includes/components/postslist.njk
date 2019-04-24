@@ -2,7 +2,7 @@
 {% for post in postslist | reverse %}
 		<article{% if post.url == url %} data-current="current item"{% endif %} class="p-list">
 			{% if post.data.thumbs %}
-				<img class="thum-list" src="{{ '/' | url }}static/galery/img/{{ post.data.thumbs }}">
+				<img class="thum-list" src="{{ '/' | url }}static/img/{{ post.data.thumbs }}">
 				{% else %}
 					<img class="thum-list" src="{{ '/' | url }}static/img/no-image.png">
 			{% endif %}	
