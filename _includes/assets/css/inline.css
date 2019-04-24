@@ -355,14 +355,13 @@ article {
   text-transform: uppercase;
   letter-spacing: .1em;
   font-size: .62em;
-  font-style: italic;
   padding: 0 .5em;
   line-height: 2em;
   height: 2em;
-  border-radius: .25em;
+  border-radius: 30px;
   text-decoration: none;
   margin: 0 .5em .5em 0;
-  background: #ccc;
+  border: 1px solid #ddd;
 }
 
 .widget-tag {
