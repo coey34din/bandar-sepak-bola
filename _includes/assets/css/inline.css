@@ -60,16 +60,6 @@ ul {
   border-left: 0;
 }
 
-/* svg icon */
-svg .block {
-  display: block;
-  background: #fff;
-}
-
-svg .text-grey {
-  fill: grey;
-}
-
 /* Header  */
 header {
   color: black;
@@ -515,6 +505,16 @@ h6.widget-title:after {
   bottom: -13px;
   width: 60px;
   border-bottom: 3px solid #02A2F2;
+}
+
+/* svg icon */
+svg .block {
+  display: block;
+  background: #fff;
+}
+
+svg .text-grey {
+  fill: grey;
 }
 
 /* boostrap edit end */
