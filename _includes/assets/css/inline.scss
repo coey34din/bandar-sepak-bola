@@ -455,7 +455,7 @@ h6.widget-title {
 	}
 }
 
-@media screen and (max-width: 658px) {
+@media screen and (max-width: 667px) {
 	
 }
 @media screen and (max-width: 768px) {
@@ -490,6 +490,7 @@ h6.widget-title {
 		}		
 	}
 	.p-list {
+		padding-bottom: 0;
 		.thum-list {
 			width: 161px;
 		}
