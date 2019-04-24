@@ -440,7 +440,11 @@ header .navbar-brand {
 }
 
 .featured-article .main-featured {
-  padding: 0 15px;
+  padding-right: 0 15px;
+}
+
+.featured-article .main-featured:first-child {
+  padding-right: 0;
 }
 
 .featured-article .main-featured .card-img-top {
