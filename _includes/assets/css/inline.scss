@@ -304,7 +304,22 @@ article {
     }
     aside{
         display: inline-table;
-    }
+	}
+	a[rel=tag], a[rel=tag]:visited {
+		display: inline-block;
+		vertical-align: text-top;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		font-size: .62em;
+		font-style: italic;
+		padding: 0 .5em;
+		line-height: 2em;
+		height: 2em;
+		border-radius: .25em;
+		text-decoration: none;
+		margin: 0 .5em .5em 0;
+		background: #ccc;
+	}
 }
 
 .widget-tag {
