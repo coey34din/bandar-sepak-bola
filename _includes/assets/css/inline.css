@@ -60,16 +60,21 @@ ul {
   border-left: 0;
 }
 
-.icon {
-  display: inline-block;
+/* svg icon */
+.svg-icon {
   width: 1em;
   height: 1em;
-  fill: #333333;
 }
 
-.icon-1 {
-  width: 1em;
-  fill: green;
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #b9c3cf;
+}
+
+.svg-icon circle {
+  stroke: #fff;
+  stroke-width: 1;
 }
 
 /* Header  */
