@@ -511,9 +511,6 @@ h6.widget-title:after {
 svg .block {
   display: block;
   background: #fff;
-}
-
-svg .text-grey {
   fill: grey;
 }
 
