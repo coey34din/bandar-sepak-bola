@@ -384,7 +384,10 @@ header .navbar-brand{
 	border-bottom: 1px solid #727272;
 	padding-bottom: 20px;
 	.card-img-top{
-		width: 100%;
+		display: block;
+		img{
+			width: 100%;
+		}
 	}
 }
 h6.widget-title { 
