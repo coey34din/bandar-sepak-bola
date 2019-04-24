@@ -77,6 +77,10 @@ ul {
   stroke-width: 1;
 }
 
+svg.block {
+  fill: #f7d674;
+}
+
 /* Header  */
 header {
   color: black;
