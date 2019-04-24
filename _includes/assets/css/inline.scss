@@ -54,6 +54,19 @@ ul {
 .border-left-none{
 	border-left: 0;
 }
+
+
+.icon { 
+	display: inline-block; 
+	width: 1em;  
+	height: 1em; 
+	fill: #333333; 
+} 
+.icon-1 { 
+	width: 1em; 
+	fill: green; 
+} 
+
 /* Header  */
 header {
 	color: black;
