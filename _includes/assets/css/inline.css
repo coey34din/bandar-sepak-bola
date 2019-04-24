@@ -190,6 +190,7 @@ header .main-menu .navbar-nav li a:hover {
 /* main */
 main {
   text-align: justify;
+  margin-bottom: 30px;
 }
 
 main .headline {
@@ -463,7 +464,6 @@ header .navbar-brand {
 }
 
 .featured-article {
-  margin-bottom: 30px;
   border-bottom: 1px solid #727272;
   padding-bottom: 20px;
 }
