@@ -440,8 +440,8 @@ header .navbar-brand {
 }
 
 .featured-article .main-featured {
-  padding: 15px 0;
-  border: 1px solid #727272;
+  padding: 0 15px;
+  border-right: 1px solid #727272;
 }
 
 .featured-article .main-featured .card-img-top {
