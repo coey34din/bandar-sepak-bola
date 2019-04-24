@@ -320,6 +320,16 @@ article {
 		border: 1px solid #ddd;
 
 	}
+	a[rel="tag"]:hover {
+		border: 1px solid #ccc;
+		background-color: #ccc;
+		color: white;
+	}
+	
+	a[rel="tag"]:last-child {
+		margin-right: 0;
+	}  
+	
 }
 
 .widget-tag {

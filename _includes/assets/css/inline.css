@@ -364,6 +364,16 @@ article {
   border: 1px solid #ddd;
 }
 
+.p-list a[rel="tag"]:hover {
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  color: white;
+}
+
+.p-list a[rel="tag"]:last-child {
+  margin-right: 0;
+}
+
 .widget-tag {
   overflow: hidden;
 }
