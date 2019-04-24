@@ -512,6 +512,16 @@ h6.widget-title:after {
   }
 }
 
+@media screen and (max-width: 568px) {
+  .p-list {
+    padding-bottom: 0;
+  }
+  .p-list .thum-list {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   header .main-header {
     display: none;

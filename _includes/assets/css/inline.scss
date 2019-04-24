@@ -454,7 +454,15 @@ h6.widget-title {
 		margin: 15px 0;
 	}
 }
-
+@media screen and (max-width: 568px) {
+	.p-list {
+		padding-bottom: 0;
+		.thum-list {
+			width: 100%;
+			margin-bottom: 15px;
+		}
+	}
+}
 @media screen and (max-width: 667px) {
 	
 }
