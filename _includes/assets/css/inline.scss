@@ -290,7 +290,8 @@ article {
 	padding-bottom: 0;
     border-bottom: 1px solid #ccc;
     padding-bottom: 20px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	
     h3{
         margin-top: 0;
         padding-top: 0;
@@ -319,6 +320,7 @@ article {
 		text-decoration: none;
 		margin: 0 .5em .5em 0;
 		border: 1px solid #ddd;
+		cursor: pointer;
 
 	}
 	a[rel="tag"]:hover {

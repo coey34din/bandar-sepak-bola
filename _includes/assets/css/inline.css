@@ -363,6 +363,7 @@ article {
   text-decoration: none;
   margin: 0 .5em .5em 0;
   border: 1px solid #ddd;
+  cursor: pointer;
 }
 
 .p-list a[rel="tag"]:hover {
