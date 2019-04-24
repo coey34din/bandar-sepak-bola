@@ -2,13 +2,13 @@
 title: This is my third post which has a rather long title
 summary: Why contemplating our mortality can be a powerful catalyst for change
 date: 2017-01-01
-thumbs: bola4.jpg
+thumbs: bola3.jpg
 tags:
   - post
   - tech
   - politics
 ---
-![RT/RW CUP](/static/img/bola4.jpg)
+![RT/RW CUP](/static/img/bola3.jpg)
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
 ```
