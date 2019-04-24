@@ -27,28 +27,26 @@
                                     {% endif %}
                             </h3>                            
                             <div class="meta-entry">
-                                <ul>
-                                    <li class="meta-date">                            
-                                        <time datetime="{{ post.date | machineDate }}">
-                                            <small>{{ post.date | readableDate }} </small>
-                                        </time>
-                                    </li>
-                                    <li class="author">                            
-                                        by {{ metadata.author.name }}
-                                    </li>
-                                </ul>
+                                <span class="meta-date">
+                                    <time datetime="{{ post.date | machineDate }}">
+                                        <small>{{ post.date | readableDate }} </small>
+                                    </time>
+                                </span>
+                                <span class="author">
+                                    by {{ metadata.author.name }}
+                                </span>                                
                             </div>
                             </div>
                             <div class="card-body">
-                            {% if post.data.summary %}
-                                <div class="excerpt">
-                                    {{ post.data.summary }}
-                                </div>
-                            {% endif %}
-                        </div>
-                    </a> 
-                </div>                       
-            </aside>
+                                {% if post.data.summary %}
+                                    <div class="excerpt">
+                                        {{ post.data.summary }}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </a> 
+                    </div>                       
+                </aside>
             {% endif %}
         {% endfor %}
     </div>
