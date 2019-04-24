@@ -61,32 +61,12 @@ ul {
 }
 
 /* svg icon */
-.svg-icon {
-  width: 1em;
-  height: 1em;
-}
-
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-  fill: #b9c3cf;
-}
-
-.svg-icon circle {
-  stroke: #fff;
-  stroke-width: 1;
-}
-
-svg.block {
-  fill: #f7d674;
-}
-
 .block {
   display: block;
 }
 
 .text-grey {
-  color: #b8c2cc;
+  color: red;
 }
 
 /* Header  */
