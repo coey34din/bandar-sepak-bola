@@ -338,7 +338,8 @@ article {
   float: left;
   width: 192px;
   margin: 0 15px 0 0;
-  border: 1px solid #ccc;
+  padding: 5px;
+  background: #ddd;
 }
 
 .p-list aside {
