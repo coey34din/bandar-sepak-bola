@@ -63,10 +63,11 @@ ul {
 /* svg icon */
 svg .block {
   display: block;
+  background: #fff;
 }
 
 svg .text-grey {
-  color: grey;
+  fill: grey;
 }
 
 /* Header  */
