@@ -58,19 +58,23 @@ ul {
 .svg-icon {
 	width: 1em;
 	height: 1em;
-  }
-  
-  .svg-icon path,
-  .svg-icon polygon,
-  .svg-icon rect {
-	fill: #b9c3cf;
-  }
-  
-  .svg-icon circle {
-	stroke: #fff;
-	stroke-width: 1;
-  }
-  svg.block { fill: #f7d674; }
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+fill: #b9c3cf;
+}
+
+.svg-icon circle {
+stroke: #fff;
+stroke-width: 1;
+}
+svg.block { fill: #f7d674; }
+
+.block {
+    display: block;
+}
 /* Header  */
 header {
 	color: black;
