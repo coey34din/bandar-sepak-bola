@@ -2,7 +2,7 @@
 title: Pertandingan Sepak Bola Antar RT
 summary: Bring to the table win-win survival strategies to ensure proactive domination
 date: 2015-01-01
-thumbnail: bola1.jpg
+thumbs: bola1.jpg
 tags:
   - post
   - tech
