@@ -440,6 +440,10 @@ header .navbar-brand {
 }
 
 .featured-article .card-img-top {
+  display: block;
+}
+
+.featured-article .card-img-top img {
   width: 100%;
 }
 
