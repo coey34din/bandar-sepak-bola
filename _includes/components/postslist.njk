@@ -7,6 +7,7 @@
 					<img class="thum-list" src="{{ '/' | url }}static/img/no-image.png">
 			{% endif %}	
 			<aside>
+			
 			<h3>
 				<a href="{{ post.url | url }}">
 					{% if post.data.title %}
@@ -21,9 +22,14 @@
 					{{ post.data.summary }}
 				</p>
 			{% endif %}
-			<p>
+			<p class="meta-entry">
 				<time datetime="{{ post.date | machineDate }}">
-					<small>{{ post.date | readableDate }} by {{ metadata.author.name }}</small>
+				<span class="post-date">                    
+					{{ post.date | readableDate }}
+				</span>
+				<span class="author">
+					by {{ metadata.author.name }}
+				</span>
 				</time>
 			</p>
 			{% if post.data.tags %}
