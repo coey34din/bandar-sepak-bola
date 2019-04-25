@@ -470,17 +470,17 @@ header .navbar-brand {
   color: gray;
 }
 
-.meta-entry span {
+.meta-entry .post-date, .meta-entry .author {
   color: #b5b5b5;
   margin-right: 20px;
 }
 
-.meta-entry span .post-date {
+.meta-entry .post-date {
   background: url("../static/img/calendar.svg") no-repeat;
   padding-left: 25px;
 }
 
-.meta-entry span .author {
+.meta-entry .author {
   background: url("../static/img/edit.svg") no-repeat;
   padding-left: 25px;
 }
