@@ -311,7 +311,7 @@ article {
 
 .widget .widget-title {
   font-weight: 600;
-  color: #fff;
+  color: #02a2f2;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -320,7 +320,7 @@ article {
 }
 
 .widget ul li {
-  padding: 7px 0;
+  padding: 4px 0;
 }
 
 .widget ul li:first-child {
@@ -328,7 +328,7 @@ article {
 }
 
 .widget ul li a {
-  color: #ccc;
+  color: #fff;
 }
 
 .widget ul li a:hover {
@@ -453,7 +453,7 @@ header .navbar-brand {
 .post-title {
   font-weight: 500;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
 }
 
 .meta-entry {
