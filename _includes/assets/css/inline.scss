@@ -419,15 +419,16 @@ header .navbar-brand{
 	span {
 		color: #b5b5b5;
 		margin-right: 20px;
+		.post-date{
+			background:url("../static/img/calendar.svg") no-repeat;
+			padding-left:25px;
+		}
+		.author{
+			background:url("../static/img/edit.svg") no-repeat;
+			padding-left:25px;
+		}
 	}
-	.post-date{
-		background:url("../static/img/calendar.svg") no-repeat;
-		padding-left:25px;
-	}
-	.author{
-		background:url("../static/img/edit.svg") no-repeat;
-		padding-left:25px;
-	}
+	
 	
 }
 .featured-article{
