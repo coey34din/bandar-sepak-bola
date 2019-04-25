@@ -106,7 +106,7 @@ header .main-header {
 }
 
 header .main-header .brand {
-  background: url("../static/img/logo.svg") no-repeat;
+  background: url("/static/img/logo.svg") no-repeat;
   display: table;
   float: left;
 }
@@ -170,7 +170,7 @@ header .form-search-box input :focus + span {
 }
 
 header .form-search-box span {
-  background: url(../static/img/search.svg) no-repeat;
+  background: url(/static/img/search.svg) no-repeat;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
   position: absolute;
@@ -234,7 +234,7 @@ main #welcome {
 }
 
 main .carousel-control .arrow-left, main .carousel-control .arrow-right {
-  background: url("../static/img/arrow.png") no-repeat;
+  background: url("/static/img/arrow.png") no-repeat;
   height: 34px;
   width: 18px;
   display: table;

@@ -95,7 +95,7 @@ header {
 		padding: 10px 0;
 		width: 100%;
 		.brand{
-			background: url("../static/img/logo.svg") no-repeat;
+			background: url("/static/img/logo.svg") no-repeat;
 			display: table;
 			float: left;	
 			h1{
@@ -144,7 +144,7 @@ header {
 			}
 		}
 		span{
-			background: url(../static/img/search.svg) no-repeat;
+			background: url(/static/img/search.svg) no-repeat;
 			-webkit-transition: all .25s ease-in-out;
 			transition: all .25s ease-in-out;
 			position: absolute;
@@ -201,7 +201,7 @@ main{
 	}
 	.carousel-control{
 		.arrow-left, .arrow-right{
-			background: url("../static/img/arrow.png") no-repeat;
+			background: url("/static/img/arrow.png") no-repeat;
 			height: 34px;
 			width: 18px;
 			display: table;
