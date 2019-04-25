@@ -4,32 +4,28 @@ section: post
 ---
 
 <article>
-    <h1>{{ title }}</h1>
-    <p class="meta-entry">
-        <time datetime="{{ post.date | machineDate }}">
-        <span class="post-date">                    
-        {{ post.date | readableDate }}
-        </span>
-        <span class="author">
-        by {{ metadata.author.name }}
-        </span>
-        </time>
-    </p>
-    {{ layoutContent | safe }}
+  <h1>{{ title }}</h1>
+  <p>
+    <small>
+      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
+    </small>
+  </p>
 
-    {% if tags %}
-        <p>
-        {% for tag in tags %}
-        {%- if tag != "post" -%}
-            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-            <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-        {%- endif -%}
-        {% endfor %}
-        </p>
-    {% endif %}
+  {{ layoutContent | safe }}
+
+  {% if tags %}
+    <p>
+    {% for tag in tags %}
+      {%- if tag != "post" -%}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+    </p>
+  {% endif %}
 
 </article>
 
 <nav>
-    <a href="{{ '/blog/' | url }}">← Blog index</a>
+  <a href="{{ '/blog/' | url }}">← Blog index</a>
 </nav>
