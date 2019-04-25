@@ -32,5 +32,4 @@
     "html-minifier": "^3.5.21",
     "uglify-es": "^3.3.9"
   }
-  "folder" : [ "_includes/assets/fonts" ]
 }
