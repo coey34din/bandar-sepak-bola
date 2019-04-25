@@ -9,11 +9,11 @@ section: post
     <p class="meta-entry">
         <time datetime="{{ date | machineDate }}">
             <span class="post-date">                    
-                {{ date | readableDate }} by 
-            </span> 
+                {{ date | readableDate }}
+            </span>
         </time>            
             <span class="author">
-                {{ metadata.author.name }}
+                by <strong>{{ metadata.author.name }}</strong>
             </span>                  
     </p>
     {% if tags %}
