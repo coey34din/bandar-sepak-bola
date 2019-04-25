@@ -418,16 +418,14 @@ header .navbar-brand{
 	color: gray;
 	.post-date, .author {
 		color: #b5b5b5;
-		margin-right: 15px;
-		
+		margin-right: 15px;		
+		padding-left:16px;
 	}
 	.post-date{
-		background:url("../static/img/calendar.svg") no-repeat;
-		padding-left:25px;
+		background:url("../static/img/calendar.svg") no-repeat;		
 	}
 	.author{
-		background:url("../static/img/edit.svg") no-repeat;
-		padding-left:25px;
+		background:url("../static/img/edit.svg") no-repeat;		
 	}
 	
 	
