@@ -171,11 +171,13 @@ header {
 					margin-left: 0;
 				}
 				a {
-					padding: 17px;
+					border-bottom: 2px solid transparent;
+					padding: 15px;
 					font-size: 16px;
 					color: #fff;
 					&:hover{
 						color:#02A2F2;
+						border-bottom: 2px solid #02A2F2;
 					}
 					
 				}
