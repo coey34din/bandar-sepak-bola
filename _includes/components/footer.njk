@@ -1,20 +1,21 @@
 <footer>
     <div class="container">
-        <div class="columns">           
+        <li class="columns">           
             <span class="col-md-4"> 
                 <aside class="widget widget-recent">
                     <h5 class="widget-title">Recent Post</h5>                    
                     {% set postslist = collections.posts %}
+                        <ul>
                         {% for post in postslist | reverse %}
-                                <aside {% if post.url == url %} data-current="current item"{% endif %}>
-                                        <a class="post-title" href="{{ post.url | url }}">
-                                            {% if post.data.title %}
-                                                    
-                                                    {{ post.data.title }}
-                                            {% else %}
-                                                    Untitled
-                                            {% endif %}
-                                        </a>
+                            <li {% if post.url == url %} data-current="current item"{% endif %}>
+                                    <a class="post-title" href="{{ post.url | url }}">
+                                        {% if post.data.title %}
+                                                
+                                                {{ post.data.title }}
+                                        {% else %}
+                                                Untitled
+                                        {% endif %}
+                                    </a>
                                     <p class="meta-entry">
                                         <time datetime="{{ post.date | machineDate }}">
                                         <span class="post-date">                    
@@ -26,9 +27,11 @@
                                         </time>
                                     </p>
                                     
-                                </aside>
+                                </li>
+                                
                         {% endfor %}
-                </aside>
+                        </ul>
+                 </aside>
             </div>
             <div class="col-md-4">               
                 <aside class="widget widget-tag">
