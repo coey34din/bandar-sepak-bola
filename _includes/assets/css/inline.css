@@ -292,6 +292,10 @@ article {
   border-bottom: 1px solid white;
 }
 
+article img {
+  margin-bottom: 20px;
+}
+
 .widget {
   padding: 26px 0;
   font-size: 14px;
