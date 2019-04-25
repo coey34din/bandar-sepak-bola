@@ -484,6 +484,7 @@ header .navbar-brand {
 
 .meta-entry .author {
   background: url("/static/img/edit.svg") no-repeat;
+  font-weight: bold;
 }
 
 .featured-article {
