@@ -132,7 +132,7 @@ header .form-search-box {
   position: static;
   display: block;
   float: right;
-  margin-top: 7px;
+  margin-top: 10px;
   background: transparent;
   border: none;
 }
@@ -142,8 +142,8 @@ header .form-search-box form {
 }
 
 header .form-search-box span, header .form-search-box input {
-  line-height: 35px;
-  height: 35px;
+  line-height: 28px;
+  height: 28px;
   color: #333;
   font-size: 14px;
 }
@@ -156,7 +156,7 @@ header .form-search-box input {
   border-radius: 999px;
   background: #fdfdfd;
   border: 1px solid #ebebeb;
-  padding-left: 35px;
+  padding-left: 30px;
   padding-right: 15px;
 }
 
@@ -174,11 +174,11 @@ header .form-search-box span {
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
   position: absolute;
-  top: 9px;
+  top: 7px;
   left: 9px;
-  color: #333;
-  width: 20px;
-  height: 20px;
+  color: #b5b5b5;
+  width: 16px;
+  height: 16px;
   padding: 0;
   background-size: cover;
 }
