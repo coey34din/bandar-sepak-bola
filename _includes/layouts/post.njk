@@ -4,19 +4,20 @@ section: post
 ---
 
 <article>
-    <h1>{{ title }}</h1>
+    <div class="post-title">
+        <h1>{{ title }}</h1>
 
-    <p class="meta-entry">
-        <time datetime="{{ date | machineDate }}">
-        <span class="post-date">                    
-            {{ date | readableDate }}
-        </span>
-        </time>
-        <span class="author">
-            by {{ metadata.author.name }}
-        </span>
-        
-    </p>
+        <p class="meta-entry">
+            <time datetime="{{ date | machineDate }}">
+                <span class="post-date">                    
+                    {{ date | readableDate }}
+                </span>           
+                <span class="author">
+                    by {{ metadata.author.name }}
+                </span>
+            </time>            
+        </p>
+    <div>
     {{ layoutContent | safe }}
 
     {% if tags %}
