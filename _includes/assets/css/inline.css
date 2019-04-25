@@ -588,12 +588,6 @@ h6.widget-title:after {
   header .main-header .brand h1 {
     padding-left: 80px;
   }
-}
-
-@media screen and (max-width: 1000px) {
-  header .banner-top {
-    display: none;
-  }
   .headline .m-slider {
     margin-bottom: 20px;
   }

@@ -541,19 +541,14 @@ h6.widget-title {
 			}
 		}
 	}
-}
-@media screen and (max-width: 1000px){
-	header{
-		.banner-top{
-			display: none;
-		}
-		
-	}
 	.headline{
 		.m-slider{
 			margin-bottom: 20px;
 		}
 	}
+}
+@media screen and (max-width: 1000px){
+	
 }
 
 @media screen and (max-width: 1200px){
