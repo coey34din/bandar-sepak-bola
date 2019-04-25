@@ -1,101 +1,94 @@
 <footer>
     <div class="container">
-        <li class="columns">           
-            <span class="col-md-4"> 
-                <aside class="widget widget-recent">
-                    <h5 class="widget-title">Recent Post</h5>                    
+        <div> class="col-md-4"> 
+            <aside class="widget widget-recent">
+                <h5 class="widget-title">Recent Post</h5>                    
                     {% set postslist = collections.posts %}
-                        <ul>
-                        {% for post in postslist | reverse %}
-                            <li {% if post.url == url %} data-current="current item"{% endif %}>
-                                    <a class="post-title" href="{{ post.url | url }}">
-                                        {% if post.data.title %}
-                                                
-                                                {{ post.data.title }}
-                                        {% else %}
-                                                Untitled
-                                        {% endif %}
-                                    </a>
-                                    <p class="meta-entry">
-                                        <time datetime="{{ post.date | machineDate }}">
-                                        <span class="post-date">                    
-                                            {{ post.date | readableDate }}
-                                        </span>
-                                        <span class="author">
-                                            by {{ metadata.author.name }}
-                                        </span>
-                                        </time>
-                                    </p>
-                                    
-                                </li>
-                                
-                        {% endfor %}
-                        </ul>
-                 </aside>
-            </div>
-            <div class="col-md-4">               
-                <aside class="widget widget-tag">
-                        <h5 class="widget-title">tag cloud</h5>
-                        <a href="#">Blockquotes</a>
-                        <a href="#">Headline</a>
-                        <a href="#">Design</a>
-                        <a href="#">Beautifull</a>
-                        <a href="#">Collaboration</a>
-                        <a href="#">Personal</a>
-                        <a href="#">Featured</a>
-                        <a href="#">Professional</a>
-                        <a href="#">Themes</a>
-                    </aside>
-            </div>
-            <div class="col-md-4">
-                <aside class="widget widget-categories">
-                    <h5 class="widget-title">Sosial Media</h5>
-                    <ul class="social-menu">
-                        <li>
-                            <a href="#" class="block text-grey" aria-label="facebook">
+                    <ul>
+                    {% for post in postslist | reverse %}
+                        <li {% if post.url == url %} data-current="current item"{% endif %}>
+                            <a class="post-title" href="{{ post.url | url }}">
+                                {% if post.data.title %}
+                                        
+                                        {{ post.data.title }}
+                                {% else %}
+                                        Untitled
+                                {% endif %}
+                            </a>
+                            <p class="meta-entry">
+                                <time datetime="{{ post.date | machineDate }}">
+                                <span class="post-date">                    
+                                    {{ post.date | readableDate }}
+                                </span>
+                                <span class="author">
+                                    by {{ metadata.author.name }}
+                                </span>
+                                </time>
+                            </p>                                    
+                        </li>                                
+                    {% endfor %}
+                    </ul>
+            </aside>
+        </div>
+        <div class="col-md-4">               
+            <aside class="widget widget-tag">
+                    <h5 class="widget-title">tag cloud</h5>
+                    <a href="#">Blockquotes</a>
+                    <a href="#">Headline</a>
+                    <a href="#">Design</a>
+                    <a href="#">Beautifull</a>
+                    <a href="#">Collaboration</a>
+                    <a href="#">Personal</a>
+                    <a href="#">Featured</a>
+                    <a href="#">Professional</a>
+                    <a href="#">Themes</a>
+                </aside>
+        </div>
+        <div class="col-md-4">
+            <aside class="widget widget-categories">
+                <h5 class="widget-title">Sosial Media</h5>
+                <ul class="social-menu">
+                    <li>
+                        <a href="#" class="block text-grey" aria-label="facebook">
+                        <svg class="block" fill="currentColor" role="img" aria-hidden="true">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/static/img/icon-library.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block text-grey" aria-label="linkedin">
                             <svg class="block" fill="currentColor" role="img" aria-hidden="true">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/static/img/icon-library.svg#icon-facebook"></use>
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ '/' | url }}static/img/icon-library.svg#icon-linkedin"></use>
                             </svg>
                         </a>
-                        </li>
-                        <li>
-                            <a href="#" class="block text-grey" aria-label="linkedin">
-                                <svg class="block" fill="currentColor" role="img" aria-hidden="true">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ '/' | url }}static/img/icon-library.svg#icon-linkedin"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="block text-grey" aria-label="googleplus">
-                                <svg class="block" fill="currentColor" role="img" aria-hidden="true">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ '/' | url }}static/img/icon-library.svg#icon-googleplus"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="block text-grey" aria-label="twitter">
-                                <svg class="block" fill="currentColor" role="img" aria-hidden="true">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ '/' | url }}static/img/icon-library.svg#icon-twitter"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="block text-grey" aria-label="youtube">
-                                <svg class="block" fill="currentColor" role="img" aria-hidden="true">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ '/' | url }}static/img/icon-library.svg#icon-youtube"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                    
-
-                    <div class="txt-footer">
-                        <p>Documentation and examples for Bootstrap’s powerful,
-                        responsive navigation header, the navbar. </p>
-
-                    </div>
-                </aside>
-            </div>
+                    </li>
+                    <li>
+                        <a href="#" class="block text-grey" aria-label="googleplus">
+                            <svg class="block" fill="currentColor" role="img" aria-hidden="true">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ '/' | url }}static/img/icon-library.svg#icon-googleplus"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block text-grey" aria-label="twitter">
+                            <svg class="block" fill="currentColor" role="img" aria-hidden="true">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ '/' | url }}static/img/icon-library.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block text-grey" aria-label="youtube">
+                            <svg class="block" fill="currentColor" role="img" aria-hidden="true">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ '/' | url }}static/img/icon-library.svg#icon-youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <div class="txt-footer">
+                    <p>Documentation and examples for Bootstrap’s powerful,
+                    responsive navigation header, the navbar. </p>
+                </div>
+            </aside>
         </div>
         <div class="col-md-12"> 
             <div class="copyright">
