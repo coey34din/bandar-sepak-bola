@@ -533,6 +533,9 @@ h6.widget-title:after {
     width: 100%;
     margin-bottom: 15px;
   }
+  .featured-article .main-featured {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
