@@ -541,15 +541,19 @@ h6.widget-title {
 			.navbar{
 				margin-bottom: 0;
 			}
-			.navbar-nav li{
+			.navbar-nav{
+				margin: 7.5px 0;
 				width: 100%;
-				margin: 0;
-				a{
-					display: block;
+				li{
 					width: 100%;
-					padding: 6px 6px 6px 15px;
-					border: 0;
-					font-size: 14px;
+					margin: 0;
+					a{
+						display: block;
+						width: 100%;
+						padding: 6px 6px 6px 15px;
+						border: 0;
+						font-size: 14px;
+					}
 				}
 			}
 		}
