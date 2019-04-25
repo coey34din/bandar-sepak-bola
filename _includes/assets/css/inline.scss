@@ -552,10 +552,14 @@ h6.widget-title {
 				font-size: 25px;
 			}
 		}
+		
 		.banner-top{
 			display: none;
 		}
+		.headline{
+			.m-slider{
+				margin-bottom: 20px;
+			}
+		}
 	}
-	
-
 }
