@@ -25,11 +25,11 @@
 			<p class="meta-entry">
 				<time datetime="{{ post.date | machineDate }}">
 					<span class="post-date">                    
-						{{ post.date | readableDate }}
+						{{ post.date | readableDate }} by 
 					</span>
 				</time>
 				<span class="author">
-					by {{ metadata.author.name }}
+					{{ metadata.author.name }}
 				</span>
 				
 			</p>
