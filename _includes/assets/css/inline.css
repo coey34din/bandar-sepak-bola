@@ -584,6 +584,12 @@ h6.widget-title:after {
   }
 }
 
+@media screen and (max-width: 980px) {
+  header .main-header .brand h1 {
+    padding-left: 80px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   header .brand {
     height: 65px;
