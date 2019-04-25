@@ -4,8 +4,8 @@ section: post
 ---
 
 <article>
-    <h1>{{ title }}</h1>
-
+    <h1>{{ title }}</h1>  
+    {{ layoutContent | safe }}
     <p class="meta-entry">
         <time datetime="{{ date | machineDate }}">
             <span class="post-date">                    
@@ -16,9 +16,6 @@ section: post
                 by {{ metadata.author.name }}
             </span>                  
     </p>
-
-    {{ layoutContent | safe }}
-
     {% if tags %}
         <p>
         {% for tag in tags %}
