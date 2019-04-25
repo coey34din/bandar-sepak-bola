@@ -8,7 +8,7 @@
         {% for post in postslist | reverse %}            
             {% if a < 4 %}
             {%set a = a + 1 %}
-            <aside {% if post.url == url %} data-current="current item"{% endif %} class="col-md-3">
+            <aside {% if post.url == url %} data-current="current item"{% endif %} class="col-md-3 col-sm-6">
                 <div class="main-featured">
                     <a href="{{ post.url | url }}" title="Top 10 eSport Players" class="more-button">
                         <div class="card-img-top">
