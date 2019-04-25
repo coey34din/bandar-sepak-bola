@@ -472,6 +472,10 @@ header .navbar-brand {
   padding-bottom: 20px;
 }
 
+.featured-article .main-featured {
+  padding-bottom: 15px;
+}
+
 .featured-article .main-featured .card-img-top {
   display: block;
 }
@@ -532,11 +536,6 @@ h6.widget-title:after {
     width: 100%;
     margin-bottom: 15px;
   }
-  .featured-article .main-featured {
-    border-bottom: 1px solid #999;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -577,6 +576,10 @@ h6.widget-title:after {
   .m-slider {
     margin-right: -15px;
     margin-left: -15px;
+    margin-bottom: 20px;
+  }
+  .featured-article .main-featured {
+    border-bottom: 1px solid #999;
     margin-bottom: 20px;
   }
 }

@@ -419,6 +419,7 @@ header .navbar-brand{
 .featured-article{
 	padding-bottom: 20px;
 	.main-featured{		
+		padding-bottom: 15px;
 		.card-img-top{
 			display: block;
 			img{
@@ -476,13 +477,7 @@ h6.widget-title {
 			margin-bottom: 15px;
 		}
 	}
-	.featured-article{
-		.main-featured{	
-			border-bottom: 1px solid #999;
-			padding-bottom: 20px;
-			margin-bottom: 20px;
-		}
-	}
+	
 }
 @media screen and (max-width: 667px) {
 	
@@ -529,6 +524,12 @@ h6.widget-title {
 		margin-left: -15px;
 		margin-bottom: 20px;
 	}	
+	.featured-article{
+		.main-featured{	
+			border-bottom: 1px solid #999;
+			margin-bottom: 20px;
+		}
+	}
 
 }
 @media screen and (max-width: 1000px) {
