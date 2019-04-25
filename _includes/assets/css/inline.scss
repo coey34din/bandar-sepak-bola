@@ -494,9 +494,6 @@ h6.widget-title {
 	}
 	
 }
-@media screen and (max-width: 667px) {
-	
-}
 
 @media screen and (max-width: 1200px){
 	header{
@@ -570,6 +567,12 @@ h6.widget-title {
 				width: 100%;
 			}
 		}		
+	}
+	main{
+		.headline{
+			margin-bottom: 50px;
+		}
+
 	}
 	.p-list {
 		padding-bottom: 0;

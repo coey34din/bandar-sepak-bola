@@ -614,6 +614,9 @@ h6.widget-title:after {
   header .form-search-box input {
     width: 100%;
   }
+  main .headline {
+    margin-bottom: 50px;
+  }
   .p-list {
     padding-bottom: 0;
   }
