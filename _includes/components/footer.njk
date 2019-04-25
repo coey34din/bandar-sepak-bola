@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
         <div class="columns">           
-            <div class="col-md-4"> 
+            <span class="col-md-4"> 
                 <aside class="widget widget-recent">
                     <h5 class="widget-title">Recent Post</h5>
                     <ul id="recent-post-list">
@@ -23,9 +23,50 @@
                         </li>
                         <li>
                             <a class="post-title" href="single-page.html">Design From the Spine and You’ll Be Fine</a>
-                            <p class="meta-entry"><span class="post-date">July 1, 2014</span><span class="author"> by <a href="author.html">Brian Gardner</a></span></p>
+                            <p class="meta-entry">
+                                <span class="post-date">July 1, 2014</span>
+                                <span class="author"> by 
+                                    <a href="author.html">Brian Gardner  </a>
+                                </span>
+                            </p>
                         </li>
                     </ul> 
+{% set postslist = collections.posts %}
+<ul>
+    <li>
+    
+    {% for post in postslist | reverse %}
+            <aside {% if post.url == url %} data-current="current item"{% endif %}>
+                    <a class="post-title" href="{{ post.url | url }}">
+                        {% if post.data.title %}
+                                
+                                {{ post.data.title }}
+                        {% else %}
+                                Untitled
+                        {% endif %}
+                    </a>
+                <p class="meta-entry">
+                    <time datetime="{{ post.date | machineDate }}">
+                    <span class="post-date">                    
+                        {{ post.date | readableDate }}
+                    </span>
+                    <span class="author">
+                        by {{ metadata.author.name }}
+                    </span>
+                    </time>
+                </p>
+                
+            </aside>
+    {% endfor %}
+    </li>
+</ul>
+
+
+
+
+
+
+
                 </aside>
             </div>
             <div class="col-md-4">               
