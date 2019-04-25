@@ -587,6 +587,7 @@ h6.widget-title:after {
     margin-bottom: 0;
     position: fixed;
     width: 100%;
+    z-index: 100;
   }
   header .main-menu .navbar-nav {
     margin: 7.5px 0;
