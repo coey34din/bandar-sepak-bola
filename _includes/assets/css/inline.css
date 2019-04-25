@@ -591,18 +591,21 @@ h6.widget-title:after {
 }
 
 @media screen and (max-width: 1000px) {
-  header .brand {
-    height: 65px;
-  }
-  header .brand h1 {
-    padding-left: 85px;
-    margin-top: 16px;
-    font-size: 25px;
-  }
   header .banner-top {
     display: none;
   }
   .headline .m-slider {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  header .main-header {
+    height: 65px;
+  }
+  header .main-header .brand h1 {
+    padding-left: 85px;
+    margin-top: 16px;
+    font-size: 25px;
   }
 }

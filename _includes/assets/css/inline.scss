@@ -544,15 +544,6 @@ h6.widget-title {
 }
 @media screen and (max-width: 1000px){
 	header{
-		.brand{
-			height: 65px;
-			h1 {
-				padding-left: 85px;
-				margin-top: 16px;
-				font-size: 25px;
-			}
-		}
-		
 		.banner-top{
 			display: none;
 		}
@@ -561,6 +552,21 @@ h6.widget-title {
 	.headline{
 		.m-slider{
 			margin-bottom: 20px;
+		}
+	}
+}
+
+@media screen and (max-width: 1200px){
+	header{
+		.main-header{
+			height: 65px;
+			.brand{
+				h1 {
+					padding-left: 85px;
+					margin-top: 16px;
+					font-size: 25px;
+				}
+			}
 		}
 	}
 }
