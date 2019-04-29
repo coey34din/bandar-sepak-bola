@@ -19,6 +19,10 @@ body {
   height: 100vh;
 }
 
+code, p, pre {
+  line-height: 1.4;
+}
+
 h1 {
   font-size: 2em;
   color: #62a9c4;
