@@ -197,7 +197,8 @@ header {
 /* main */
 main{
 	text-align: justify;
-	margin-bottom: 30px;
+	padding-bottom: 30px;
+	background: url("/static/img/bg-main.jpg") repeat-x;
 	h1{
 		margin-bottom: 20px;
 	}
