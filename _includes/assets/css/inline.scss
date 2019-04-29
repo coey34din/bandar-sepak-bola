@@ -204,6 +204,7 @@ main{
 	background: url("/static/img/bg-main.jpg") repeat-x;
 	.bg-main{
 		background: $color4 url("/static/img/bg-article.png") repeat-x;
+		padding: 20px;
 	}
 	h1{
 		margin-bottom: 20px;
