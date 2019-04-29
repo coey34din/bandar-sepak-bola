@@ -166,7 +166,7 @@ header {
 		}
 	}
 	.main-menu {
-		margin-bottom: 25px;
+		margin-bottom: 0;
 		.navbar-nav{
 			display: table;
 			li {
@@ -197,7 +197,7 @@ header {
 /* main */
 main{
 	text-align: justify;
-	padding-bottom: 30px;
+	padding: 30px 0;
 	background: url("/static/img/bg-main.jpg") repeat-x;
 	h1{
 		margin-bottom: 20px;
@@ -413,6 +413,7 @@ header .navbar-brand{
 }
 .navbar{
 	border-radius: 0;
+	margin-bottom: 0;
 }
 .navbar-inverse{
 	background: $color2;
