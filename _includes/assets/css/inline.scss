@@ -75,6 +75,7 @@ a[rel=tag], a[rel=tag]:visited {
 	text-decoration: none;
 	margin: 0 .5em .5em 0;
 	border: 1px solid $color6;
+	color: $color6;
 	cursor: pointer;
 
 }
@@ -301,7 +302,7 @@ article {
 	ul {
 		li {
 			padding: 4px 0;
-			border-bottom: 1px solid $color1;
+			border-bottom: 1px solid $color6;
 			&:first-child { padding-top: 0;}
 			a { 
 				color: $color4;
@@ -318,7 +319,8 @@ article {
 		li{
 			padding: 0;
 			float: left;
-			margin-right: 10px;			
+			margin-right: 10px;	
+			border: none;		
 			&:last-child {
 				margin-right: 0;
 			}

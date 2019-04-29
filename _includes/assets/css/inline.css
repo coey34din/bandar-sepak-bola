@@ -73,6 +73,7 @@ a[rel=tag], a[rel=tag]:visited {
   text-decoration: none;
   margin: 0 .5em .5em 0;
   border: 1px solid #636363;
+  color: #636363;
   cursor: pointer;
 }
 
@@ -329,7 +330,7 @@ article img {
 
 .widget ul li {
   padding: 4px 0;
-  border-bottom: 1px solid #0d121a;
+  border-bottom: 1px solid #636363;
 }
 
 .widget ul li:first-child {
@@ -353,6 +354,7 @@ article img {
   padding: 0;
   float: left;
   margin-right: 10px;
+  border: none;
 }
 
 .widget .social-menu li:last-child {
