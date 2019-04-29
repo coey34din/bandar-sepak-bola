@@ -143,7 +143,7 @@ header {
 		input{
 			border-radius: 999px;
 			background: $color4;
-			border: 1px solid $color4;;
+			border: 1px solid $color1;;
 			padding-left: 30px;
 			padding-right: 15px;
 			&:focus{
@@ -591,7 +591,7 @@ h6.widget-title {
 	}
 	main{
 		.headline{
-			margin-top: 50px;
+			margin-top: 20px;
 		}
 
 	}
