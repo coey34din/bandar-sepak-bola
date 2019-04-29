@@ -7,7 +7,7 @@
 
 html,
 body {
-  background: white;
+  background: #eaf0f3;
   padding: 0;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   margin: 0;
@@ -21,12 +21,12 @@ body {
 
 h1 {
   font-size: 2em;
-  color: #02a2f2;
+  color: #62a9c4;
   font-weight: 500;
 }
 
 h2 {
-  color: #02A2F2;
+  color: #62a9c4;
   font-size: 25px;
 }
 
@@ -39,7 +39,7 @@ p, pre, code {
 }
 
 a {
-  color: brown;
+  color: #62a9c4;
 }
 
 a[href],
@@ -77,9 +77,9 @@ a[rel=tag], a[rel=tag]:visited {
 }
 
 a[rel="tag"]:hover {
-  border: 1px solid #ccc;
-  background-color: #ccc;
-  color: white;
+  border: 1px solid #eaf0f3;
+  background-color: #eaf0f3;
+  color: #eaf0f3;
 }
 
 a[rel="tag"]:last-child {
@@ -166,7 +166,7 @@ header .form-search-box input:focus {
 }
 
 header .form-search-box input :focus + span {
-  color: #23a0bf;
+  color: #62a9c4;
 }
 
 header .form-search-box span {
@@ -211,8 +211,8 @@ header .main-menu .navbar-nav li a {
 }
 
 header .main-menu .navbar-nav li a:hover {
-  color: #02A2F2;
-  border-bottom: 2px solid #02A2F2;
+  color: #62a9c4;
+  border-bottom: 2px solid #62a9c4;
 }
 
 /* main */
@@ -278,9 +278,9 @@ main form textarea {
 }
 
 main form button {
-  border: 1px solid #7a6202;
-  background-color: #7a6202;
-  color: white;
+  border: 1px solid #1e2b3d;
+  background-color: #1e2b3d;
+  color: #eaf0f3;
   cursor: pointer;
 }
 
@@ -289,7 +289,7 @@ main form button {
 article {
   margin-bottom: 1em;
   padding-bottom: 1em;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #eaf0f3;
   display: table;
   width: 100%;
 }
@@ -319,7 +319,7 @@ article img {
 
 .widget .widget-title {
   font-weight: 600;
-  color: #02a2f2;
+  color: #62a9c4;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -329,7 +329,7 @@ article img {
 
 .widget ul li {
   padding: 4px 0;
-  border-bottom: 1px solid #262626;
+  border-bottom: 1px solid #0d121a;
 }
 
 .widget ul li:first-child {
@@ -337,11 +337,11 @@ article img {
 }
 
 .widget ul li a {
-  color: #fff;
+  color: #eaf0f3;
 }
 
 .widget ul li a:hover {
-  color: orange;
+  color: #ffefa6;
 }
 
 .widget .social-menu {
@@ -361,12 +361,12 @@ article img {
 
 .widget .social-menu li a {
   font-size: 30px;
-  color: white;
+  color: #eaf0f3;
 }
 
 .p-list {
   padding-bottom: 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #eaf0f3;
   padding-bottom: 20px;
 }
 
@@ -409,7 +409,7 @@ article img {
 .widget-tag a:hover {
   background: gray;
   border-color: gray;
-  color: white;
+  color: #eaf0f3;
 }
 
 .widget-recent #recent-post-list li {
@@ -427,7 +427,7 @@ article img {
 }
 
 footer {
-  background: #0d121a;
+  background: #1e2b3d;
   padding-top: 30px;
 }
 
@@ -456,7 +456,7 @@ header .navbar-brand {
 }
 
 .navbar-inverse {
-  background: #0d121a;
+  background: #1e2b3d;
   border: none;
 }
 
@@ -503,7 +503,7 @@ header .navbar-brand {
 .featured-article .main-featured .card-img-top img {
   width: 100%;
   padding: 5px;
-  background: #ccc;
+  background: #eaf0f3;
 }
 
 .featured-article .main-featured .excerpt {
@@ -512,7 +512,7 @@ header .navbar-brand {
 
 h6.widget-title {
   font-weight: 600;
-  color: #23a0bf;
+  color: #62a9c4;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.1em;
@@ -528,7 +528,7 @@ h6.widget-title:after {
   left: 0;
   bottom: -13px;
   width: 60px;
-  border-bottom: 3px solid #02A2F2;
+  border-bottom: 3px solid #62a9c4;
 }
 
 /* svg icon */

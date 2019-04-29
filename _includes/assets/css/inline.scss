@@ -4,7 +4,8 @@ $color1: #0d121a;
 $color2: #1e2b3d;
 $color3: #62a9c4;
 $color4: #eaf0f3;
-$color : #ffefa6;
+$color5: #ffefa6;
+$color6: $color6;
 
 *,
 *:before,
@@ -14,23 +15,23 @@ box-sizing: border-box;
 
 html,
 body {
-	background: white;
+	background: $color4;
 	padding: 0;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	margin: 0;
 	font-size: 14px;
-	color: black;
+	color: $color0;
 }
 body {
 	height: 100vh;
 }
 h1{
 	font-size: 2em;
-    color: #02a2f2;
+    color: $color3;
     font-weight: 500;
 }
 h2{
-	color: #02A2F2;
+	color: $color3;
 	font-size: 25px;
 }
 .h3, h3{
@@ -40,7 +41,7 @@ p, pre, code {
 	line-height: 1.5;
 }
 a{
-	color: brown;
+	color: $color3;
 }
 a[href],
 a[href]:visited {
@@ -78,9 +79,9 @@ a[rel=tag], a[rel=tag]:visited {
 
 }
 a[rel="tag"]:hover {
-	border: 1px solid #ccc;
-	background-color: #ccc;
-	color: white;
+	border: 1px solid $color4;
+	background-color: $color4;
+	color: $color4;
 }
 
 a[rel="tag"]:last-child {
@@ -88,7 +89,7 @@ a[rel="tag"]:last-child {
 }  
 /* Header  */
 header {
-	color: black;
+	color: $color0;
 	>em {
 		display: block;
 		font-size: 2em;
@@ -110,7 +111,7 @@ header {
 				padding-left: 125px;
 				vertical-align: top;
 				margin-top: 11px;
-				color: black;
+				color: $color0;
 			}		
 		}
 		.img-fluid {
@@ -146,7 +147,7 @@ header {
 				border-color: #ddd;
 			}
 			:focus + span{
-				color: #23a0bf;
+				color: $color3;
 			}
 		}
 		span{
@@ -182,8 +183,8 @@ header {
 					font-size: 16px;
 					color: #fff;
 					&:hover{
-						color:#02A2F2;
-						border-bottom: 2px solid #02A2F2;
+						color:$color3;
+						border-bottom: 2px solid $color3;
 					}
 					
 				}
@@ -246,13 +247,13 @@ main{
 		
 		input,
 		textarea {
-			border: 1px solid black;
+			border: 1px solid $color0;
 		}
 		
 		button {
-			border: 1px solid #7a6202;
-			background-color: #7a6202;
-			color: white;
+			border: 1px solid $color2;
+			background-color: $color2;
+			color: $color4;
 			cursor: pointer;
 		}
 	}
@@ -266,7 +267,7 @@ main{
 article {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid $color4;
 	display: table;
 	width: 100%;
 	img{
@@ -290,7 +291,7 @@ article {
 	}
 	.widget-title {
 		font-weight: 600;
-		color: #02a2f2;
+		color: $color3;
 		text-transform: uppercase;
 		font-size: 12px;
 		letter-spacing: 0.1em;
@@ -300,12 +301,12 @@ article {
 	ul {
 		li {
 			padding: 4px 0;
-			border-bottom: 1px solid #262626;
+			border-bottom: 1px solid $color1;
 			&:first-child { padding-top: 0;}
 			a { 
-				color: #fff;
+				color: $color4;
 				&:hover { 
-					color: orange;
+					color: $color5;
 				}
 			}
 
@@ -323,7 +324,7 @@ article {
 			}
 			a{
 				font-size: 30px;
-				color: white;
+				color: $color4;
 			}
 
 		}
@@ -331,7 +332,7 @@ article {
 }
 .p-list{
 	padding-bottom: 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid $color4;
     padding-bottom: 20px;
     h3{
         margin-top: 0;
@@ -367,15 +368,15 @@ article {
 		padding: 3px 8px;
 		margin: 5px;
 		&:hover {
-			background:gray;
-			border-color: gray;
-			color: white;
+			background:$color6;
+			border-color: $color6;
+			color: $color4;
 		}
 	}
 }
 .widget-recent {
 	#recent-post-list li {
-		border-bottom: 1px solid #262626;
+		border-bottom: 1px solid $color6;
 		padding: 10px 0;		
 		&:first-child { 
 			padding-top: 0;}
@@ -387,14 +388,14 @@ article {
 }
 
 footer{
-	background:$color1;
+	background:$color2;
 	padding-top: 30px;
 	.txt-footer{
 		color: #b5b5b5;
 		margin-top: 20px;
 	}
 	.copyright {
-		border-top: 1px solid #333333;
+		border-top: 1px solid $color6;
 		margin-top: 20px;
 		color: #727272;
 		padding: 10px 0;
@@ -411,7 +412,7 @@ header .navbar-brand{
 	border-radius: 0;
 }
 .navbar-inverse{
-	background: $color1;
+	background: $color2;
 	border: none;
 }
 .post-title {
@@ -423,7 +424,7 @@ header .navbar-brand{
 	font-size: 10px;
 	margin-bottom: 0;
 	text-transform: uppercase;
-	color: gray;
+	color: $color6;
 	margin-bottom: 2px;
 	.post-date, .author {
 		color: #b5b5b5;
@@ -448,17 +449,17 @@ header .navbar-brand{
 			img{
 				width: 100%;
 				padding: 5px;
-				background: #ccc;
+				background: $color4;
 			}
 		}
 		.excerpt{
-			color: black;
+			color: $color0;
 		}
 	}	
 }
 h6.widget-title { 
     font-weight: 600;
-    color: #23a0bf;
+    color: $color3;
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 0.1em;
@@ -472,7 +473,7 @@ h6.widget-title {
 		left: 0;
 		bottom: -13px;
 		width: 60px;
-		border-bottom: 3px solid #02A2F2;
+		border-bottom: 3px solid $color3;
 	}
 }
 /* svg icon */
