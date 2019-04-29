@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 section: post
 ---
-
+<div class="container bg-main">
 <article>
     <h1>{{ title }}</h1>  
     {{ layoutContent | safe }}
@@ -32,3 +32,4 @@ section: post
 <nav>
     <a href="{{ '/blog/' | url }}">← Blog index</a>
 </nav>
+</div>
