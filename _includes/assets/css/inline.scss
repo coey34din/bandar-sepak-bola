@@ -5,7 +5,7 @@ $color2: #1e2b3d;
 $color3: #62a9c4;
 $color4: #eaf0f3;
 $color5: #ffefa6;
-$color6: $color6;
+$color6: #636363;
 
 *,
 *:before,
@@ -74,7 +74,7 @@ a[rel=tag], a[rel=tag]:visited {
 	border-radius: 30px;
 	text-decoration: none;
 	margin: 0 .5em .5em 0;
-	border: 1px solid #ddd;
+	border: 1px solid $color6;
 	cursor: pointer;
 
 }
@@ -132,19 +132,19 @@ header {
 		span, input{
 			line-height: 28px;
 			height: 28px;
-			color: #333;
+			color: $color6;;
 			font-size: 14px;
 		}
-		.active span{color: #999;}
+		.active span{color: $color6;}
 		input{
 			border-radius: 999px;
-			background: #fdfdfd;
-			border: 1px solid #ebebeb;
+			background: $color4;
+			border: 1px solid $color4;;
 			padding-left: 30px;
 			padding-right: 15px;
 			&:focus{
-				background-color: #fff;
-				border-color: #ddd;
+				background-color: $color4;;
+				border-color: $color6;
 			}
 			:focus + span{
 				color: $color3;
@@ -157,7 +157,7 @@ header {
 			position: absolute;
 			top: 7px;
 			left: 9px;
-			color: #b5b5b5;
+			color: $color6;
 			width: 16px;
 			height: 16px;
 			padding: 0;
@@ -181,7 +181,7 @@ header {
 					border-bottom: 2px solid transparent;
 					padding: 15px;
 					font-size: 16px;
-					color: #fff;
+					color: $color4;
 					&:hover{
 						color:$color3;
 						border-bottom: 2px solid $color3;
@@ -344,7 +344,7 @@ article {
         width: 192px;
 		margin:0 15px 0 0;
 		padding: 5px;
-		background: #ddd;
+		background: $color6;
     }
     aside{
         display: inline-table;
@@ -358,8 +358,8 @@ article {
 	a {
 		display: block;
 		float: left;
-		color: #fff;
-		border: 1px solid #fff;
+		color: $color4;
+		border: 1px solid $color4;
 		text-transform: uppercase;
 		border-radius: 30px;
 		-moz-border-radius: 30px;
@@ -391,13 +391,13 @@ footer{
 	background:$color2;
 	padding-top: 30px;
 	.txt-footer{
-		color: #b5b5b5;
+		color: $color6;
 		margin-top: 20px;
 	}
 	.copyright {
 		border-top: 1px solid $color6;
 		margin-top: 20px;
-		color: #727272;
+		color: $color6;
 		padding: 10px 0;
 	}	
 }
@@ -427,7 +427,7 @@ header .navbar-brand{
 	color: $color6;
 	margin-bottom: 2px;
 	.post-date, .author {
-		color: #b5b5b5;
+		color: $color6;
 		margin-right: 15px;		
 		padding-left:16px;
 	}
@@ -596,7 +596,7 @@ h6.widget-title {
 	}	
 	.featured-article{
 		.main-featured{	
-			border-bottom: 1px solid #999;
+			border-bottom: 1px solid $color6;;
 			margin-bottom: 20px;
 		}
 	}
