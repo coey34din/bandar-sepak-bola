@@ -294,6 +294,8 @@ article {
   border-bottom: 1px solid #eaf0f3;
   display: table;
   width: 100%;
+  background: #eaf0f3;
+  padding: 15px;
 }
 
 article img {
