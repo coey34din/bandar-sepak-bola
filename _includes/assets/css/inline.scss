@@ -1,5 +1,11 @@
 
-	
+$color0: black;
+$color1: #0d121a;
+$color2: #1e2b3d;
+$color3: #62a9c4;
+$color4: #eaf0f3;
+$color : #ffefa6;
+
 *,
 *:before,
 *:after {
@@ -91,7 +97,7 @@ header {
 		font-style: normal;
 	}
 	.main-header {
-		background: #ccc;
+		background: $color3;
 		padding: 10px 0;
 		width: 100%;
 		.brand{
@@ -405,6 +411,7 @@ header .navbar-brand{
 	border-radius: 0;
 }
 .navbar-inverse{
+	background: $color1;
 	border: none;
 }
 .post-title {

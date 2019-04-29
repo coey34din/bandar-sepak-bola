@@ -100,7 +100,7 @@ header > em {
 }
 
 header .main-header {
-  background: #ccc;
+  background: #62a9c4;
   padding: 10px 0;
   width: 100%;
 }
@@ -456,6 +456,7 @@ header .navbar-brand {
 }
 
 .navbar-inverse {
+  background: #0d121a;
   border: none;
 }
 
