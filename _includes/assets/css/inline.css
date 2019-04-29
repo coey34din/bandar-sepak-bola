@@ -227,6 +227,10 @@ main {
   background: url("/static/img/bg-main.jpg") repeat-x;
 }
 
+main .bg-main {
+  background: #eaf0f3 url("/static/img/bg-article.png") repeat-x;
+}
+
 main h1 {
   margin-bottom: 20px;
 }
@@ -298,7 +302,6 @@ article {
   border-bottom: 1px solid #eaf0f3;
   display: table;
   width: 100%;
-  background: #eaf0f3 url("/static/img/bg-article.png") repeat-x;
   padding: 15px;
 }
 

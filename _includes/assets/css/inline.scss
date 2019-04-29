@@ -201,6 +201,9 @@ main{
 	text-align: justify;
 	padding: 30px 0;
 	background: url("/static/img/bg-main.jpg") repeat-x;
+	.bg-main{
+		background: $color4 url("/static/img/bg-article.png") repeat-x;
+	}
 	h1{
 		margin-bottom: 20px;
 	}
@@ -273,8 +276,7 @@ article {
 	padding-bottom: 1em;
 	border-bottom: 1px solid $color4;
 	display: table;
-	width: 100%;
-	background: $color4 url("/static/img/bg-article.png") repeat-x;
+	width: 100%;	
 	padding: 15px;
 	img{
 		margin-bottom: 25px;
