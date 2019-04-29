@@ -6,6 +6,7 @@ $color3: #62a9c4;
 $color4: #eaf0f3;
 $color5: #ffefa6;
 $color6: #636363;
+$color7:white;
 
 *,
 *:before,
@@ -456,7 +457,7 @@ header .navbar-brand{
 			img{
 				width: 100%;
 				padding: 5px;
-				background: $color4;
+				background: $color7;
 			}
 		}
 		.excerpt{
