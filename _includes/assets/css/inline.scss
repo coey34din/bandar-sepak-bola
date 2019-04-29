@@ -8,6 +8,7 @@ $color5: #ffefa6;
 $color6: #636363;
 $color7: white;
 $color8: #a5a5a5;
+$color9: #10161f;
 
 *,
 *:before,
@@ -142,8 +143,8 @@ header {
 		.active span{color: $color6;}
 		input{
 			border-radius: 999px;
-			background: $color6;
-			border: 1px solid $color1;;
+			background: $color9;
+			border: 1px solid $color1;
 			padding-left: 30px;
 			padding-right: 15px;
 			&:focus{
