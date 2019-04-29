@@ -6,7 +6,8 @@ $color3: #62a9c4;
 $color4: #eaf0f3;
 $color5: #ffefa6;
 $color6: #636363;
-$color7:white;
+$color7: white;
+$color8: #a5a5a5;
 
 *,
 *:before,
@@ -43,7 +44,7 @@ p, pre, code {
 	line-height: 1.5;
 }
 a{
-	color: $color3;
+	color: $color2;
 }
 a[href],
 a[href]:visited {
@@ -437,7 +438,7 @@ header .navbar-brand{
 	color: $color6;
 	margin-bottom: 2px;
 	.post-date, .author {
-		color: $color6;
+		color: $color8;
 		margin-right: 15px;		
 		padding-left:16px;
 	}

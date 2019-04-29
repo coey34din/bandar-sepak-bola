@@ -43,7 +43,7 @@ p, pre, code {
 }
 
 a {
-  color: #62a9c4;
+  color: #1e2b3d;
 }
 
 a[href],
@@ -488,7 +488,7 @@ header .navbar-brand {
 }
 
 .meta-entry .post-date, .meta-entry .author {
-  color: #636363;
+  color: #a5a5a5;
   margin-right: 15px;
   padding-left: 16px;
 }
