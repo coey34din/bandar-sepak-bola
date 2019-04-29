@@ -272,7 +272,7 @@ article {
 	border-bottom: 1px solid $color4;
 	display: table;
 	width: 100%;
-	background: $color4;
+	background: $color4 url("/static/img/bg-article.jpg") repeat-x;
 	padding: 15px;
 	img{
 		margin-bottom: 25px;

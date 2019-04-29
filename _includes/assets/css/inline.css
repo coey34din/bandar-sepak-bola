@@ -294,7 +294,7 @@ article {
   border-bottom: 1px solid #eaf0f3;
   display: table;
   width: 100%;
-  background: #eaf0f3;
+  background: #eaf0f3 url("/static/img/bg-article.jpg") repeat-x;
   padding: 15px;
 }
 
