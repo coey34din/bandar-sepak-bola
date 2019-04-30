@@ -643,6 +643,7 @@ h6.widget-title:after {
     float: left;
     margin-top: 10px;
     margin-right: 10px;
+    display: table;
   }
   .p-list {
     padding-bottom: 0;
