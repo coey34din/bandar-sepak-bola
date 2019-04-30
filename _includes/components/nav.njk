@@ -11,6 +11,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
+                <li>sds</li>
                 {%- for nav in collections.nav | sort(attribute="date") -%}
                 <li>
                     <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
