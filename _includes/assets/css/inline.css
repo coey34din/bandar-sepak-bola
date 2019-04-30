@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,400italic,600,600italic,700,700italic);
 .navbar-inverse {
   background: #14253b;
   /* Old browsers */
@@ -14,7 +15,7 @@ html,
 body {
   background: #eaf0f3;
   padding: 0;
-  font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   margin: 0;
   font-size: 14px;
   color: black;
