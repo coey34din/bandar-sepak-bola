@@ -10,13 +10,6 @@
   /* IE6-9 */
 }
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 html,
 body {
   background: #eaf0f3;
@@ -307,12 +300,12 @@ main form button {
   cursor: pointer;
 }
 
-main .m-slider {
+/* slider*/
+.headline .m-slider {
+  background: white;
   padding: 3px;
-  background: #fff;
 }
 
-/* slider*/
 /* Posts List */
 article {
   margin-bottom: 1em;
@@ -606,6 +599,7 @@ h6.widget-title:after {
   }
   .headline .m-slider {
     margin-bottom: 20px;
+    padding: 0;
   }
 }
 
