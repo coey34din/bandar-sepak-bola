@@ -237,6 +237,7 @@ main {
 main .bg-main {
   background: #eaf0f3 url("/static/img/bg-article.png") repeat-x;
   padding: 20px;
+  margin-top: 15px;
 }
 
 main h1 {
