@@ -582,12 +582,7 @@ h6.widget-title {
 				}
 			}
 		}
-		.headline{
-			margin-top: 20px;
-			.m-slider{
-				padding: 0;
-			}
-		}
+		
 		.navbar-brand{
 			display: block;
 		}
@@ -598,6 +593,12 @@ h6.widget-title {
 				width: 100%;
 			}
 		}		
+	}
+	.headline{
+		margin-top: 20px;
+		.m-slider{
+			padding: 0;
+		}
 	}
 	.m-logo{
 		float: left;

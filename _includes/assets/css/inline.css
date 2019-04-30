@@ -623,12 +623,6 @@ h6.widget-title:after {
     border: 0;
     font-size: 14px;
   }
-  header .headline {
-    margin-top: 20px;
-  }
-  header .headline .m-slider {
-    padding: 0;
-  }
   header .navbar-brand {
     display: block;
   }
@@ -638,6 +632,12 @@ h6.widget-title:after {
   }
   header .form-search-box input {
     width: 100%;
+  }
+  .headline {
+    margin-top: 20px;
+  }
+  .headline .m-slider {
+    padding: 0;
   }
   .m-logo {
     float: left;
