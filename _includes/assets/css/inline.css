@@ -315,7 +315,7 @@ article {
   border-bottom: 1px solid #eaf0f3;
   display: table;
   width: 100%;
-  padding: 15px;
+  padding: 0;
 }
 
 article img {
