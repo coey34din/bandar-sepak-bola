@@ -391,9 +391,9 @@ article img {
 }
 
 .p-list {
-  padding-bottom: 0;
   border: 1px solid #a5a5a5;
-  padding-bottom: 20px;
+  padding: 15px;
+  margin-bottom: 2px;
 }
 
 .p-list h3 {
