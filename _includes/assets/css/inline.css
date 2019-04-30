@@ -295,6 +295,11 @@ main form button {
   cursor: pointer;
 }
 
+main .carousel {
+  padding: 3px;
+  background: #fff;
+}
+
 /* slider*/
 /* Posts List */
 article {
