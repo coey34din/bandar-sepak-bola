@@ -599,7 +599,6 @@ h6.widget-title:after {
   }
   .headline .m-slider {
     margin-bottom: 20px;
-    padding: 0;
   }
 }
 
@@ -631,6 +630,12 @@ h6.widget-title:after {
     border: 0;
     font-size: 14px;
   }
+  header .headline {
+    margin-top: 20px;
+  }
+  header .headline .m-slider {
+    padding: 0;
+  }
   header .navbar-brand {
     display: block;
   }
@@ -640,9 +645,6 @@ h6.widget-title:after {
   }
   header .form-search-box input {
     width: 100%;
-  }
-  main .headline {
-    margin-top: 20px;
   }
   .p-list {
     padding-bottom: 0;

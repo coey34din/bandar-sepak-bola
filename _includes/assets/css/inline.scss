@@ -557,7 +557,6 @@ h6.widget-title {
 	.headline{
 		.m-slider{
 			margin-bottom: 20px;
-			padding: 0;
 		}
 	}
 }
@@ -590,6 +589,12 @@ h6.widget-title {
 				}
 			}
 		}
+		.headline{
+			margin-top: 20px;
+			.m-slider{
+				padding: 0;
+			}
+		}
 		.navbar-brand{
 			display: block;
 		}
@@ -601,12 +606,7 @@ h6.widget-title {
 			}
 		}		
 	}
-	main{
-		.headline{
-			margin-top: 20px;
-		}
-
-	}
+	
 	.p-list {
 		padding-bottom: 0;
 		.thum-list {
