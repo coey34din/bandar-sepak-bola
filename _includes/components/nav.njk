@@ -11,7 +11,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li>sds</li>
+                <li><img class="img-fluid" src="{{ '/' | url }}static/img/favicon-32x32.png" alt=""></li>
                 {%- for nav in collections.nav | sort(attribute="date") -%}
                 <li>
                     <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
