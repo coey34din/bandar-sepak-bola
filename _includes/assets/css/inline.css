@@ -571,6 +571,13 @@ h6.widget-title:after {
   }
 }
 
+@media screen and (max-width: 450px) {
+  main .bg-main {
+    background: none;
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .p-list {
     padding-bottom: 0;
