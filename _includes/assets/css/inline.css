@@ -571,6 +571,12 @@ h6.widget-title:after {
   }
 }
 
+@media screen and (max-width: 411px) {
+  .p-list .thum-list {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .p-list {
     padding-bottom: 0;
