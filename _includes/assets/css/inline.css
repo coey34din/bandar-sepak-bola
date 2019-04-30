@@ -87,8 +87,8 @@ a[rel=tag], a[rel=tag]:visited {
 }
 
 a[rel="tag"]:hover {
-  border: 1px solid #eaf0f3;
-  background-color: #eaf0f3;
+  border: 1px solid #a5a5a5;
+  background-color: #a5a5a5;
   color: #eaf0f3;
 }
 
