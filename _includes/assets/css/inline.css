@@ -387,6 +387,10 @@ article img {
   color: #eaf0f3;
 }
 
+.m-logo {
+  display: none;
+}
+
 .p-list {
   padding-bottom: 0;
   border: 1px solid #a5a5a5;
