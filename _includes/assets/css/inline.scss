@@ -10,15 +10,13 @@ $color7: white;
 $color8: #a5a5a5;
 $color9: #10161f;
 
-
 %gradien-menu{
-	background: #0c203a; /* Old browsers */
-	background: -moz-linear-gradient(top, #0c203a 1%, #1e2b3d 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #0c203a 1%,#1e2b3d 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #0c203a 1%,#1e2b3d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c203a', endColorstr='#1e2b3d',GradientType=0 ); /* IE6-9 */
+	background: #14253b; /* Old browsers */
+	background: -moz-linear-gradient(top, #14253b 0%, #3f4c6b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #14253b 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #14253b 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14253b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
 }
-
 
 html,
 body {
