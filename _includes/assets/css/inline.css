@@ -470,6 +470,10 @@ footer .copyright {
   padding: 10px 0;
 }
 
+footer .copyright a {
+  color: white;
+}
+
 /* boostrap edit */
 header .navbar-brand {
   display: none;
